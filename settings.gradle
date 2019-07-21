@@ -1,0 +1,3 @@
+rootProject.name = 'randomprisons'
+
+include 'randomprisons-common', 'randomprisons-spigot', 'randomprisons-sponge'

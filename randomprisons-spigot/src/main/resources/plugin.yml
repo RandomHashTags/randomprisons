@@ -1,0 +1,4 @@
+name: RandomPrisons
+version: @version@
+main: me.randomhashtags.randomprisons.RandomPrisonsSpigot
+api-version: 1.13
