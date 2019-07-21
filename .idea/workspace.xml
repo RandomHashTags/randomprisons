@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7f04112-2b54-4958-9258-312bff7386f2" name="Default Changelist" comment="" />
+    <list default="true" id="f7f04112-2b54-4958-9258-312bff7386f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/api/CustomEnchants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/YamlUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/FactionsAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/PAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/SpawnerAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/VaultAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/WorldGuardAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/enums/WGFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/ASkyblock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/factionsUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UParticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/RandomPrisonsSpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/RandomPrisons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomprisons-spigot/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/randomprisons-spigot/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -36,7 +59,129 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/FactionsAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/SpawnerAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/VaultAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPFeature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1887">
+              <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/api/CustomEnchants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/RandomPrisons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/enums/WGFlag.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/factionsUUID.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/WorldGuardAPI.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getSpawner</find>
+      <find>RandomPackage</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>RandomPrisons</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/universal/UMaterial.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/RandomPrisonsSpigot.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPStorage.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UVersion.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/api/Lootboxes.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/SuperiorSkyblock.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/SpawnerAPI.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/RandomPrisons.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/FactionsAPI.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/api/CustomEnchants.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPFeature.java" />
+        <option value="$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/YamlUpdater.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
@@ -49,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -57,17 +201,130 @@
               <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
               <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomprisons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomprisons" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomprisons" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomprisons" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="supported" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomprisons" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="supported" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomprisons" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="supported" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RandomPrisons Multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RandomPrisons Multi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="randomprisons-spigot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="randomprisons" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="universal" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.randomhashtags.randomprisons.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Evan's Dominating PC\Desktop\IntelliJ IDEA Community Edition 2018.2.5\RandomPrisons Multi\randomprisons-spigot\src\main\java\me\randomhashtags\randomprisons\utils" />
+      <recent name="C:\Users\Evan's Dominating PC\Desktop\IntelliJ IDEA Community Edition 2018.2.5\RandomPrisons Multi\randomprisons-spigot\src\main\java\me\randomhashtags\randomprisons\utils\universal" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,6 +355,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
   </component>
@@ -116,34 +374,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25168985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32969603" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -157,8 +416,177 @@
     <entry file="file://$PROJECT_DIR$/randomprisons-sponge/src/main/java/me/randomhashtags/randomprisons/RandomPrisonsSponge.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/RandomPrisonsSpigot.java">
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/api/MonthlyCrates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UParticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="1703" column="6" selection-start-line="1703" selection-start-column="6" selection-end-line="1703" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/api/Lootboxes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/universal/UVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1336">
+          <caret line="459" column="51" selection-start-line="459" selection-start-column="51" selection-end-line="459" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/ASkyblock.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/PAPI.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/enums/WGFlag.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/factionsUUID.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/WorldGuardAPI.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/SuperiorSkyblock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/MCMMOOverhaul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/plugins/MCMMOClassic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/FactionsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/MCMMOAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/RandomPrisons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/VaultAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/api/CustomEnchants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/YamlUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/RPFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomprisons-spigot/src/main/java/me/randomhashtags/randomprisons/utils/supported/SpawnerAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

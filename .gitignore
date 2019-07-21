@@ -1,0 +1,7 @@
+.idea/**
+.gradle/**
+randomprisons-common/**
+randomprisons-spigot/build/**
+randomprisons-spigot/out/**
+randomprisons-sponge/build/**
+randomprisons-sponge/out/**
