@@ -1,0 +1,66 @@
+# Made by RandomHashTags
+auction house:
+  enabled: true
+#
+cells:
+  enabled: true
+#
+coinflip:
+  enabled: true
+#
+contrabands:
+  enabled: true
+#
+custom enchants:
+  enabled: true
+#
+gangs:
+  enabled: true
+  #
+  vaults: true
+#
+guards:
+  enabled: true
+#
+homes:
+  enabled: true
+#
+jackpot:
+  enabled: true
+#
+gkits:
+  enabled: true
+#
+ore generators:
+  enabled: true
+#
+outposts:
+  enabled: true
+#
+player attributes:
+  enabled: true
+#
+quests:
+  enabled: true
+#
+rested xp:
+  enabled: true
+#
+satchels:
+  enabled: true
+#
+showcase:
+  enabled: true
+#
+titles:
+  enabled: true
+#
+trade:
+  enabled: true
+#
+trinkets:
+  enabled: true
+#
+vaults:
+  enabled: true
+#

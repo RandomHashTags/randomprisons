@@ -1,0 +1,13 @@
+# Made by RandomHashTags
+messages:
+#
+items:
+  nametag:
+    item: "name_tag"
+    name: "&b&lCell Guard Nametag"
+    lore:
+    - " "
+    - "&eRight-click on a cell guard"
+    - "&ewith this item to rename it!"
+    - " "
+#

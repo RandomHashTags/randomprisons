@@ -1,6 +1,6 @@
 package me.randomhashtags.randomprisons.utils;
 
-import me.randomhashtags.randomprisons.api.CustomEnchants;
+import me.randomhashtags.randomprisons.api.unfinished.CustomEnchants;
 import me.randomhashtags.randomprisons.utils.universal.UInventory;
 import me.randomhashtags.randomprisons.utils.universal.UMaterial;
 import org.bukkit.Bukkit;
