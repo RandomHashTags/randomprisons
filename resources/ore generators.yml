@@ -1,0 +1,14 @@
+# Made by RandomHashTags
+
+lore format:
+  - " "
+  - "&fGeneration Time: {TIME}"
+  - "&fArena: {AREA}"
+  - " "
+  - "&fHint: Place this in your cell around"
+  - "&6&lCrude Ore&r &fto generate {ORE}"
+  - " "
+  - "&eRequired Mining Level &f{LEVEL}"
+  - "&7(or Prestige &d&l<&b&lI&d&l>&r &7to buy & place)"
+  - " "
+  - "&7&n-33% XP&r &7gain until Mining Level {REDUCTION_LEVEL}"

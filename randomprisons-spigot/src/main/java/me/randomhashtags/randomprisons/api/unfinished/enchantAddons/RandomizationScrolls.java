@@ -1,4 +1,4 @@
-package me.randomhashtags.randomprisons.api.enchantAddons;
+package me.randomhashtags.randomprisons.api.unfinished.enchantAddons;
 
 import me.randomhashtags.randomprisons.utils.RPFeature;
 

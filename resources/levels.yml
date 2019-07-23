@@ -1,0 +1,37 @@
+# Made by RandomHashTags
+messages:
+  leveled up:
+    - " "
+    - "&6&l&nLEVEL {LEVEL}"
+    - " "
+#
+settings:
+  default: 1
+  max: 104
+#
+xp required:
+  2: 28
+  3: 54
+#
+level cap:
+  unlocked:
+    unlocked lore:
+      - "&a&l*&r &f{UNLOCK}"
+    #
+    item: "lime_stained_glass_pane"
+    name: "&a&lDay&r &f&l{DAY}"
+    lore:
+      - " "
+      - "&a&lUNLOCKED"
+      - " "
+      - "&cMax Level: &f{MAX_LEVEL}"
+      - "&7(&f{{MAX_LEVEL}_XP} &7XP)"
+      - " "
+      - "{UNLOCKS}"
+  #
+  1:
+    time required: 1
+    allowed max level: 45
+    unlocks:
+      - "Cells=LOW SECURITY;Low Security Cells"
+      - ""

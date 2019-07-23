@@ -1,0 +1,71 @@
+# Made by RandomHashTags
+
+items:
+  fuel:
+    item: "obsidian"
+    name: "&b&lEnergy Forge Fuel"
+    lore:
+    - " "
+    - "&fIncreases the rate of Server Energy"
+    - "&fgeneration in a Cell Energy Forge"
+    - " "
+    - " &a&l* VIP Security Forge&r&7: +&f3,000&7/hr"
+    - " &b&l* Maximum Security Forge&r&7: +&f2,000&7/hr"
+    - " &e&l* High Security Forge&r&7: +&f1,500&7/hr"
+    - " &c&l* Medium Security Forge&r&7: +&f1,000&7/hr"
+    - " "
+    - " "
+    - "&7NOTE: Increasing generation rate requires"
+    - "&7additional space around the Energy Forge"
+    - " "
+    - "&7(Place on an Energy Forge)"
+#
+forges:
+  MAXIMUM:
+    item: "furnace"
+    name: "&b&lMaximum Security Forge"
+    lore:
+      - " "
+      - "&bGenerates &lServer Energy&r &bwhen placed in"
+      - "&ba Cell and fueled with &7&lEnergy Forge Fuel"
+      - " "
+      - " &b&l*&r &7Maximum Fuel: &f256"
+      - " &b&l*&r &7Efficiency: &f2,000 &7Server Energy/hr per Fuel"
+      - " &b&l*&r &7Minimum Cell Security: &bMaximum Security"
+      - " "
+      - "&7NOTE: The more Fuel you add, the more"
+      - "&7space around the Energy Forge needed"
+      - " "
+      - "&7(Place in your cell)"
+  VIP:
+    item: "furnace"
+    name: "&a&lVIP Security Forge"
+    lore:
+      - " "
+      - "&aGenerates &lServer Energy&r &awhen placed in"
+      - "&aa Cell and fueled with &7&lEnergy Forge Fuel"
+      - " "
+      - " &a&l*&r &7Maximum Fuel: &f256"
+      - " &a&l*&r &7Efficiency: &f3,000 &7Server Energy/hr per Fuel"
+      - " &a&l*&r &7Minimum Cell Security: &aVIP Security"
+      - " "
+      - "&7NOTE: The more Fuel you add, the more"
+      - "&7space around the Energy Forge needed"
+      - " "
+      - "&7(Place in your cell)"
+  HIGH:
+    item: "furnace"
+    name: "&e&lHigh Security Forge"
+    lore:
+      - " "
+      - "&eGenerates &lServer Energy&r &ewhen placed in"
+      - "&ea Cell and fueled with &7&lEnergy Forge Fuel"
+      - " "
+      - " &e&l*&r &7Maximum Fuel: &f256"
+      - " &e&l*&r &7Efficiency: &f1,500 &7Server Energy/hr per Fuel"
+      - " &e&l*&r &7Minimum Cell Security: &eHigh Security"
+      - " "
+      - "&7NOTE: The more Fuel you add, the more"
+      - "&7space around the Energy Forge needed"
+      - " "
+      - "&7(Place in your cell)"

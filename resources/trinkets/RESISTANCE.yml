@@ -1,0 +1,16 @@
+# Made by RandomHashTags
+
+item:
+  item: "splash_potion_resistance"
+  name: "&c&lResistance Trinket&r &7({CHARGES})"
+  lore:
+    - ""
+    - " "
+    - "&fEffect: &cThrows a Potion of Resistance II"
+    - " "
+    - "&fCharges: &c{CHARGES}"
+    - "&fEnergy: &c{ENERGY}"
+    - "&fEnergy per use: &c65,000"
+    - "&fCooldown: &c2m"
+    - " "
+    - "&7(Right-click to activate)"

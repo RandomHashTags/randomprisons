@@ -1,0 +1,20 @@
+# Made by RandomHashTags
+
+item:
+  item: "name_tag"
+  name: "&c&lKill:&r &6{TAG}"
+  lore:
+  - " "
+  - "&cYou {TAG}&r &cOpponent"
+  - " "
+  - "&7Hint: Drag and drop onto the sword"
+  - "&7you wish to apply the message to"
+#
+tags:
+  - "&6shutdown"
+  - "&6Zeroed"
+  - "&6one shot"
+  - "&62 Shot"
+  - "&6assassinated"
+  - "&6Sliced n Diced"
+  - "&c(/)/ L ()"

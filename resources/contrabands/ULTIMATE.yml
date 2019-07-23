@@ -1,0 +1,28 @@
+# Made by RandomHashTags
+item:
+  item: "ender_chest"
+  name: "&e&lUltimate Contraband"
+  lore:
+  - "&7A stash of mystery contraband"
+  - "&7smuggled in by Prisoners!"
+  - " "
+  - "&7Contains &e&n3 Ultimate RArity&r &7items..."
+  - "&e&l*&r &7Rank: Immortal"
+  - "&e&l*&r &7/gkit Flares"
+  - "&e&l*&r &7Mystery Ultimate Enchant"
+  - "&e&l*&r &7Enchant Re-Rolls"
+  - "&e&l*&r &7Custom Kill Messages"
+  - "&e&l*&r &7Summer Quest Kit"
+  - "&e&l*&r &7Charge Orb Items"
+  - "&e&l*&r &7Satchels"
+  - "&e&l*&r &7Ore Generators"
+  - "&e&l*&r &7128k - 512k Energy"
+  - "&e&l*&r &7$64,000 - $256,000"
+  - "&e&l*&r &7Black/White Scrolls"
+  - "&e&l*&r &7Home/PV/Showcase Expanders"
+  - "&e&l*&r &7Iron Weapons/Pickaxes"
+#
+reward size: 3
+#
+rewards:
+  - ""

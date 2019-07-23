@@ -1,0 +1,17 @@
+# Made by RandomHashTags
+
+item:
+  item: "fishing_rod"
+  name: "&c&lGrappling Hook Trinket&r &7({CHARGES})"
+  lore:
+    - " "
+    - " "
+    - "&fEffect: &cThrows a Grappling Hook"
+    - "&cthat you can jump to"
+    - " "
+    - "&fCharges: &c{CHARGES}"
+    - "&fEnergy: &c{ENERGY}"
+    - "&fEnergy per use: &c50,000"
+    - "&fCooldown: &c40s"
+    - " "
+    - "&7(Right-click to activate)"

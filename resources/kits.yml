@@ -1,0 +1,13 @@
+# Made by RandomHashTags
+
+gkits:
+  gui:
+    title: "&8&lG-Kits     {PLAYER}"
+    size: 18
+    #
+    bkacground:
+      item: "black_stained_glass_pane"
+      name: " "
+    #
+#
+rank:

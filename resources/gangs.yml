@@ -1,0 +1,50 @@
+# Made by RandomHashTags
+messages:
+  usage:
+    - "&dUsage: &f/gang help"
+  #
+  help:
+    - " "
+    - " "
+    - "&b/gang create &f- &6Crates a gang"
+    - "&b/gang title &f- &6Sets your gang title"
+    - "&b/gang invite &f- &6Invites a player to your gang"
+    - "&b/gang owner &f- &6Give ownership of the gang to another player"
+    - "&b/gang enemy &f- &6Makes another gang your enemy"
+    - "&b/gang truce &f- &6Makes a truce with another gang"
+    - "&b/gang neutral &f- &6Sets your gang to be neutral to another gang"
+    - "&b/gang chat <truce> &f- &6Chat to gang members or truces"
+    - "&b/gang info &f- &6Shows information about your gang or another"
+    - "&b/gang desc &f- &6Sets your gang description"
+    - "&b/gang kick &f- &6Kicks a member from your gang"
+    - "&b/gang leave &f- &6Leaves your gang"
+    - "&b/gang join &f- &6Joins a gang"
+    - "&b/gang who &f- &6Lookup a gang by player name"
+    - "&b/gang mod &f- &6Gives moderator to a member"
+    - "&b/gang coleader &f- &6Gives co-leader to a member"
+    - "&b/gang tag &f- &6Sets a gang member's tag"
+    - "&b/gang bank deposit/withdraw/info &f- &6Banking"
+    - "&b/gang target set/info/deposit/withdraw/clear &f- &6Targets"
+    - "&b/gang status &f- &6Shows status of members"
+    - "&b/gang vault &f- &6A Private Vault for you and your gang members to exchange and store pickaxes with one another!"
+    - "&b/gang vault log &f- &6Audit who has placed and taken items out of your gang's vault"
+    - " "
+  #
+  not in gang:
+    - "&cYou are not in a gang!"
+  #
+  error enter title:
+    - "&cYou must enter a gang title after the command."
+  error enter name:
+    - "&cYou must enter a name after the command."
+  error enter description:
+    - "&cYou must enter a description after the command."
+  error enter user tag:
+    - "&cYou must enter a user tag after the command."
+  #
+  join unknown gang:
+    - "&cUnknown gang &f&l{INPUT}"
+  join must have invite:
+    - "&cYou must have an invite to join the gang &f&l{GANG}&r&c."
+  #
+#

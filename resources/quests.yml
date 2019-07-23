@@ -1,0 +1,18 @@
+# Made by RandomHashTags
+
+items:
+  token:
+    item: "prismarine_crystals"
+    name: "&b&lCosmic Token"
+    lore:
+      - " "
+      - "&6Gained as a reward for"
+      - "&6completing &b&l/Quests"
+      - " "
+      - "&7Hint: Server Tokens can be spent"
+      - "&7on rare items at the Quest Shop"
+      - "&7which is hidden somewhere on"
+      - "&7the map and is only visible"
+      - "&7every Friday at 6 PM CST"
+      - "&7to Saturday at 6 PM CST"
+#

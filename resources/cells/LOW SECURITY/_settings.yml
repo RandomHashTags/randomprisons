@@ -1,0 +1,86 @@
+# Made by RandomHashTags
+messages:
+  need to be ast least level to own cell:
+    - "&cYou must be atleast level &f&l35&r &cMining or Prestige &d&l<&b&lI&d&l>&r &cto own this cell!"
+#
+settings:
+  price: 3000000
+  required min mining level: 35
+  required min prestige level: 1
+  #
+  sections: 6
+  section labels:
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+  section item amount=sections: true
+  #
+  rooms:
+    - A=124
+    - B=124
+    - C=124
+    - D=124
+    - E=124
+    - F=174
+  room item amount=room#: true
+  #
+  gear:
+    string: "&6Chain Armor and Stone Weaponry"
+#
+item:
+  item: "white_stained_glass_pane"
+  name: "&f&lLow Security"
+  lore:
+  - ""
+#
+lores:
+  room need to be level:
+    - "&cYou need to be level &f&l35&r &cMining"
+#
+sections:
+  title: "&8&lSections          ${BALANCE}"
+  size: 27
+  #
+#
+rooms:
+  title: "&8&lRooms        ${BALANCE}"
+  size: 54
+  #
+  unavailable:
+    item: "black_stained_glass_pane"
+    name: "&fRoom &b&l{ROOM}"
+    lore:
+    - " "
+    - "&fSection &4&l{SECTION}"
+    - "&fSecurity &lLow"
+    - " "
+    - "{REQUIRED}"
+    - " "
+    - "&aPrice &a${PRICE}"
+    - " "
+    - "&fGear: {GEAR}"
+    - " "
+    - "&fOwner &6L[OWNER}"
+    - " "
+    - "&fExpiring in &6{TIME}"
+  #
+  available:
+    item: "white_stained_glass_pane"
+    name: "&fRoom &b&l{ROOM}"
+    lore:
+      - " "
+      - "&fSection &4&l{SECTION}"
+      - "&fSecurity &lLow"
+      - " "
+      - "{REQUIRED}"
+      - " "
+      - "&aPrice &a${PRICE}"
+      - " "
+      - "&fGear: {GEAR}"
+      - " "
+      - "{MINING}"
+  #
+#

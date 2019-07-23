@@ -1,0 +1,27 @@
+# Made by RandomHashTags
+item:
+  item: "ender_chest"
+  name: "&8&lSimple Contraband"
+  lore:
+  - "&7A stash of mystery contraband"
+  - "&7smuggled in by Prisoners!"
+  - " "
+  - "&7Contains &8&n3 Simple RArity&r &7items..."
+  - "&8&l*&r &7Rank: Glitch"
+  - "&8&l*&r &7/gkit Flares"
+  - "&8&l*&r &7Mystery Simple Enchant"
+  - "&8&l*&r &7Enchant Re-Rolls"
+  - "&8&l*&r &7Custom Kill Messages"
+  - "&8&l*&r &7Charge Orb Items"
+  - "&8&l*&r &7Satchels"
+  - "&8&l*&r &7Ore Generators"
+  - "&8&l*&r &732k - 128k Energy"
+  - "&8&l*&r &7$16,000 - $64,000"
+  - "&8&l*&r &7Black/White Scrolls"
+  - "&8&l*&r &7Home/PV/Showcase Expanders"
+  - "&8&l*&r &7Wood Weapons/Pickaxes"
+#
+reward size: 3
+#
+rewards:
+  - ""

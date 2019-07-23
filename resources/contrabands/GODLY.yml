@@ -1,0 +1,33 @@
+# Made by RandomHashTags
+item:
+  item: "ender_chest"
+  name: "&c&lGodly Contraband"
+  lore:
+  - "&7A stash of mystery contraband"
+  - "&7smuggled in by Prisoners!"
+  - " "
+  - "&7Contains &c&n3 Godly Rarity&r &7items..."
+  - "&e&l*&r &7Rank: Terminator+"
+  - "&e&l*&r &7Rank: Terminator"
+  - "&e&l*&r &7Enchantment Book Bundle"
+  - "&e&l*&r &7Mystery G-Kit Flare"
+  - "&e&l*&r &7Mystery Fractured G-Kit Flare"
+  - "&e&l*&r &7/gkit Flares"
+  - "&e&l*&r &7Meteor Flares"
+  - "&e&l*&r &7Mystery Legendary+ Enchant"
+  - "&e&l*&r &7Item Lore Crystal"
+  - "&e&l*&r &7Custom Kill Messages"
+  - "&e&l*&r &7Charge Orb Items"
+  - "&e&l*&r &7Satchels"
+  - "&e&l*&r &7Absorption Trinket (0)"
+  - "&e&l*&r &7Energy Forge Fuel"
+  - "&e&l*&r &7Ore Generators"
+  - "&e&l*&r &7512k - 2048k Energy"
+  - "&e&l*&r &7$256,000 - $1,024,000"
+  - "&e&l*&r &7Home/PV/Showcase Expanders"
+  - "&e&l*&r &7Diamond Weapons/Pickaxes"
+#
+reward size: 3
+#
+rewards:
+  - ""

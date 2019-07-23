@@ -1,0 +1,16 @@
+# Made by RandomHashTags
+
+item:
+  item: "splash_potion_healing"
+  name: "&c&lHealing Trinket&r &7({CHARGES})"
+  lore:
+    - ""
+    - " "
+    - "&fEffect: &cThrows a Potion of Healing II"
+    - " "
+    - "&fCharges: &c{CHARGES}"
+    - "&fEnergy: &c{ENERGY}"
+    - "&fEnergy per use: &c25,000"
+    - "&fCooldown: &c45s"
+    - " "
+    - "&7(Right-click to activate)"

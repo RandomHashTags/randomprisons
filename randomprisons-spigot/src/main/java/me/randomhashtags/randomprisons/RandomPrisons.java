@@ -27,6 +27,5 @@ public final class RandomPrisons extends JavaPlugin {
         saveDefaultConfig();
     }
     public void disable() {
-
     }
 }

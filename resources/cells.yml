@@ -1,0 +1,24 @@
+# Made by RandomHashTags
+
+gui:
+  title: "&8&lTiers          ${BALANCE}"
+  size: 27
+  #
+#
+lores:
+  show sections:
+    - "&7(Left-click to show sections)"
+  show cells:
+    - "&7(Left-click to show cells)"
+  format:
+    - " "
+    - "&cRequired Mining Level &f&l{MINING}"
+    - "&cOR Prestige &d&l<&b&l[PRESTIGE}&d&l>&r &cor higher"
+    - " "
+    - "&fPrice &a${PRICE}"
+    - " "
+    - "&fGear: {GEAR}"
+    - " "
+    - "{LEFT_CLICK}"
+    - "&7(Right-click to teleport)"
+#

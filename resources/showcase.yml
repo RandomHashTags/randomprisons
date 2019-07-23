@@ -1,0 +1,12 @@
+# Made by RandomHashTags
+
+
+gui:
+  title: "&8&lShowcase   {PLAYER}"
+  size: 54
+  #
+  background:
+    item: "black_stained_glass_pane"
+    name: " "
+  #
+#

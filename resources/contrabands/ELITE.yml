@@ -1,0 +1,28 @@
+# Made by RandomHashTags
+item:
+  item: "ender_chest"
+  name: "&3&lElite Contraband"
+  lore:
+  - "&7A stash of mystery contraband"
+  - "&7smuggled in by Prisoners!"
+  - " "
+  - "&7Contains &3&n3 Elite RArity&r &7items..."
+  - "&3&l*&r &7Rank: Paradox"
+  - "&3&l*&r &7Stash of Ores"
+  - "&3&l*&r &7/gkit Flares"
+  - "&3&l*&r &7Mystery Elite Enchant"
+  - "&3&l*&r &7Enchant Re-Rolls"
+  - "&3&l*&r &7Custom Kill Messages"
+  - "&3&l*&r &7Charge Orb Items"
+  - "&3&l*&r &7Satchels"
+  - "&3&l*&r &7Ore Generators"
+  - "&3&l*&r &764k - 256k Energy"
+  - "&3&l*&r &7$32,000 - $128,000"
+  - "&3&l*&r &7Black/White Scrolls"
+  - "&3&l*&r &7Home/PV/Showcase Expanders"
+  - "&3&l*&r &7Gold Weapons/Pickaxes"
+#
+reward size: 3
+#
+rewards:
+  - ""

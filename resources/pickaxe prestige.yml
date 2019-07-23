@@ -1,0 +1,45 @@
+# Made by RandomHashTags
+messages:
+  not eligable for prestige:
+    - "&c&l(!)&r &cThis item is not eligable for prestige!"
+#
+items:
+  token:
+    item: "sunflower"
+    name: "&e&lPickaxe Prestige Token"
+    lore:
+      - "&fGrants &nONE&r &ffree Prestige for"
+      - "&fany pickaxe, without the requirements!"
+      - " "
+      - "&7Hint: Drag and drop onto a pickaxe"
+#
+gui:
+  title: "&8&lPickaxe Prestige"
+  size: 54
+  #
+  background:
+    item: "black_stained_glass_pane"
+    name: " "
+  #
+  info:
+    slot: 4
+    item: "book"
+    name: "&b&lPickaxe Prestige"
+    lore:
+    - "&7Prestiging your pickaxe gives you"
+    - "&7a permanent buff to keep on your"
+    - "&7pickaxe forever!"
+    - " "
+    - "&7To prestige a pickaxe you must first meet"
+    - "&7the requirements needed of that pickaxe!"
+    - "&7Below is a list of each Prestige Perk!"
+    - " "
+    - "&bHoarder&7: Gain 40% more ores when mining"
+    - "&bGrinder&7: +25% Mining Speed"
+    - "&bEnergy Mastery&7: +5 Charge Orb Slots"
+    - "&bShard Mastery&7: Gain Shards twice as fast"
+    - "&bXP Mastery&7: +15% extra XP when mining"
+    - " "
+    - "&4&lWarning:&r &7Prestiging your pickaxe will"
+    - "&7cause it to lose all enchants!"
+#

@@ -1,0 +1,37 @@
+# Made by RandomHashTags
+messages:
+  status:
+    - " "
+    - "&b&l*** Server Prisons:&r &6&lKING OF THE HILL&r &b&l***"
+    - " "
+  #
+  countdown:
+    - " "
+    - "&b&l*** KOTH EVENT STARTING IN&r &6&n{TIME}&r &b&l***"
+    - "&7Use &b/koth &7to view event information!"
+    - "&7On RandomPrisons KOTH is a &nKeep Inventory&r &7World!"
+    - " "
+  countdowns:
+    - 5m
+    - 4m
+    - 3m
+    - 2m
+    - 1m
+    - 10s
+    - 9s
+    - 8s
+    - 7s
+    - 6s
+    - 5s
+    - 4s
+    - 3s
+    - 2s
+    - 1s
+  started:
+    - " "
+    - "&b&l*** A KOTH EVENT HAS STARTED! ***"
+    - " "
+    - "&7Use /koth to view event information!"
+    - "&7On RandomPrisons KOTH is a &nKeep Inventory&r &7World!"
+    - " "
+#

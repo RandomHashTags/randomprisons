@@ -1,0 +1,19 @@
+# Made by RandomHashTags
+
+idle:
+#
+added:
+  guard xp tax:
+    - "&c&lGuard XP Tax"
+    - "  &f&l{PERCENT}%"
+#
+holding pickaxe:
+  starting score: 11
+  name: "&b&lRandom&r&6&lPrisons"
+  scores:
+    - "&b&lAccount&r &f{PLAYER}"
+    - " "
+    - "&6&lLevel"
+    - "  &f&l{LEVEL}&r &7({XP} XP)"
+    - "&e&lProgress"
+    - "  &7"

@@ -1,0 +1,14 @@
+# Made by RandomHashTags
+messages:
+  login:
+    - " "
+    - "&a&l(!) Rested XP&r &ahas &n{TIME}&r &aremaining - &l{MULTIPLIER} XP"
+    - "&7You accrue Rested XP while logged out, and use it while being logged in."
+    - " "
+  notify:
+    - "&a&l(!) Rested XP&r &ahas &n{TIME}&r &aremaining - &a&l1.5x XP"
+  notify trigger:
+    - "3h30m"
+    - "3h"
+    - "2h30m"
+    - "2h"

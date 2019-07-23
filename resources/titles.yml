@@ -1,0 +1,50 @@
+# Made by RandomHashTags
+
+gui:
+  title: "&8&lTitles    {PLAYER}"
+  size: 54
+  #
+  background:
+    item: "black_stained_glass_pane"
+    name: " "
+  #
+  active:
+    item: "lime_stained_glass_pane"
+    name: "&b&lTitle&r &6{TITLE}"
+    lore:
+    - "&a&lACTIVE"
+  inactive:
+    item: "red_stained_glass_pane"
+    name: "&b&lTitle&r &6{TITLE}"
+    lore:
+    - "&c&lINACTIVE"
+  #
+#
+titles:
+  - Alpha I
+  - E.P.I.C.
+  - Summer2k17
+  - Summer2k18
+  - Godfather
+  - 2Tapped
+  - Caffeine Addict
+  - TryHard
+  - Swag
+  - "#1"
+  - "#prankster"
+  - "#gotem"
+  - ooofff
+  - What is Sleep?
+  - Bunny Killer
+  - Mr. Unlucky
+  - Driveby
+  - True Love
+  - NRG Addict
+  - Ghoster
+  - Padawan
+  - "#Xeon"
+  - Top Tier
+  - Booster
+  - Tank
+  - "#TheGrind"
+  - Smhoking!
