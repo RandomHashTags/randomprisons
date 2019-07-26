@@ -33,6 +33,8 @@ messages:
   not in gang:
     - "&cYou are not in a gang!"
   #
+  error already in gang:
+    - "&cYou are already in a gang!"
   error enter title:
     - "&cYou must enter a gang title after the command."
   error enter name:
@@ -47,4 +49,14 @@ messages:
   join must have invite:
     - "&cYou must have an invite to join the gang &f&l{GANG}&r&c."
   #
+#
+settings:
+  bank: true
+  vaults: true
+#
+gui:
+  title: "&8&lGang Upgrades"
+  backgrounds:
+    item: "black_stained_glass_pane"
+    name: " "
 #
