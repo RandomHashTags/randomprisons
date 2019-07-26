@@ -1,0 +1,36 @@
+# Made by RandomHashTags
+settings:
+  max level: 4
+  radius:
+    1: 2
+    2: 2
+    3: 3
+    4: 4
+  cooldown:
+    all: 7200
+  xp required:
+    2: 800
+    3: 1600
+    4: 2400
+  xp gained per use:
+    all: 50
+#
+item:
+  item: "player_head_item"
+  name: "&e&lSuper Generator Pet&r &7[LVL {LEVEL}]"
+  lore:
+  - "&7Generates ores within a radius of you"
+  - " "
+  - "&f&lStats"
+  - " &7Radius: {RADIUS} blocks"
+  - " "
+  - "&f&lCooldown"
+  - " &7{TIME}"
+  - " "
+  - "&f&lLevel"
+  - " &7&n{LEVEL}&r &7/ 4"
+  - " "
+  - "&7(Right-click to activate)"
+#
+attributes:
+  - ""

@@ -1,6 +1,7 @@
 package me.randomhashtags.randomprisons.utils;
 
 import me.randomhashtags.randomprisons.addons.Cell;
+import me.randomhashtags.randomprisons.addons.KillTag;
 import me.randomhashtags.randomprisons.addons.MiningLevel;
 import me.randomhashtags.randomprisons.addons.objects.PlayerOptions;
 
@@ -14,8 +15,9 @@ public class RPPlayer {
     private PlayerOptions options;
     private MiningLevel levelcap, mininglevel;
     private BigDecimal blocksMined, raidsCompleted, miningxp;
+    private KillTag killtag;
 
-
+    public boolean isLoaded() { return isLoaded; }
     public void load() {
         if(!isLoaded) {
             isLoaded = true;
@@ -28,7 +30,7 @@ public class RPPlayer {
     }
 
 
-
+    public long getPlayTime() { return playtime; }
     public Cell getCell() {
         if(cell == null) {
         }
@@ -43,5 +45,10 @@ public class RPPlayer {
         if(levelcap == null) {
         }
         return levelcap;
+    }
+    public KillTag getKillTag() {
+        if(killtag == null) {
+        }
+        return killtag;
     }
 }

@@ -1,0 +1,46 @@
+# Made by RandomHashTags
+settings:
+  max level: 4
+  outgoing damage multiplier:
+    1: 1.20
+    2: 1.30
+    3: 1.40
+    4: 1.50
+  incoming damage multiplier:
+    1: 0.95
+    2: 0.90
+    3: 0.85
+    4: 0.80
+  duration:
+    1: 240
+    2: 420
+    3: 600
+    4: 780
+  cooldown:
+    all: 18000
+  xp required:
+    2: 1000
+    3: 2000
+    4: 3000
+  xp gained per use:
+    all: 50
+#
+item:
+  item: "player_head_item"
+  name: "&d&lAlien Hunter Pet&r &7[LVL {LEVEL}]"
+  lore:
+  - "&7Increased damage and resistance to Aliens"
+  - " "
+  - "&f&lStats"
+  - " &7Radius: {RADIUS} blocks"
+  - " "
+  - "&f&lCooldown"
+  - " &7{TIME}"
+  - " "
+  - "&f&lLevel"
+  - " &7&n{LEVEL}&r &7/ 4"
+  - " "
+  - "&7(Right-click to activate)"
+#
+attributes:
+  - ""

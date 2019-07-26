@@ -1,0 +1,36 @@
+# Made by RandomHashTags
+settings:
+  max level: 4
+  radius:
+    1: 2
+    2: 3
+    3: 4
+    4: 5
+  cooldown:
+    all: 60
+  xp required:
+    2: 3000
+    3: 5000
+    4: 7000
+  xp gained per use:
+    all: 50
+#
+item:
+  item: "player_head_item"
+  name: "&a&lCreeper Pet&r &7[LVL {LEVEL}]"
+  lore:
+  - "&7Explodes nearby ores up to your tier"
+  - " "
+  - "&f&lStats"
+  - " &7Radius: {RADIUS} blocks"
+  - " "
+  - "&f&lCooldown"
+  - " &7{TIME}"
+  - " "
+  - "&f&lLevel"
+  - " &7&n{LEVEL}&r &7/ 4"
+  - " "
+  - "&7(Right-click to activate)"
+#
+attributes:
+  - ""

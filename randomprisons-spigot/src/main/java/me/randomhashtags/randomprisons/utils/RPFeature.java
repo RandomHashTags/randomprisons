@@ -1,7 +1,6 @@
 package me.randomhashtags.randomprisons.utils;
 
 import me.randomhashtags.randomprisons.api.unfinished.CustomEnchants;
-import me.randomhashtags.randomprisons.utils.universal.UInventory;
 import me.randomhashtags.randomprisons.utils.universal.UMaterial;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -20,9 +19,7 @@ import org.bukkit.inventory.meta.EnchantmentStorageMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.TreeMap;
 
 import static me.randomhashtags.randomprisons.RandomPrisons.getPlugin;
@@ -37,8 +34,6 @@ public abstract class RPFeature extends RPStorage implements Listener {
 
     public static YamlConfiguration otherdata;
     protected static File otherdataF;
-    public static UInventory givedp;
-    public static List<Inventory> givedpCategories;
 
     public void enable() {
         if(otherdataF == null) {
@@ -48,9 +43,6 @@ public abstract class RPFeature extends RPStorage implements Listener {
 
             treemap.put(1000, "M"); treemap.put(900, "CM"); treemap.put(500, "D"); treemap.put(400, "CD"); treemap.put(100, "C"); treemap.put(90, "XC");
             treemap.put(50, "L"); treemap.put(40, "XL"); treemap.put(10, "X"); treemap.put(9, "IX"); treemap.put(5, "V"); treemap.put(4, "IV"); treemap.put(1, "I");
-
-            givedp = new UInventory(null, 27, "Givedp Categories");
-            givedpCategories = new ArrayList<>();
         }
         if(isEnabled) return;
         try {
@@ -83,21 +75,6 @@ public abstract class RPFeature extends RPStorage implements Listener {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-    public void viewGivedp(Player player) {
-        player.openInventory(Bukkit.createInventory(player, givedp.getSize(), givedp.getTitle()));
-        player.getOpenInventory().getTopInventory().setContents(givedp.getInventory().getContents());
-        player.updateInventory();
-    }
-    public void addGivedpCategory(List<ItemStack> items, UMaterial m, String what, String invtitle) {
-        item = m.getItemStack(); itemMeta = item.getItemMeta();
-        itemMeta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + what);
-        item.setItemMeta(itemMeta);
-        givedp.getInventory().addItem(item);
-        final int size = items.size();
-        final Inventory inv = Bukkit.createInventory(null, size == 9 || size == 18 || size == 27 || size == 36 || size == 45 || size == 54 ? size : ((size+9)/9)*9, invtitle);
-        for(ItemStack is : items) if(is != null) inv.addItem(is);
-        givedpCategories.add(inv);
     }
     public String toRoman(int number) {
         /* This code is from "bhlangonijr" at https://stackoverflow.com/questions/12967896/converting-integers-to-roman-numerals-java */
