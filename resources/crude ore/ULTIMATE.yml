@@ -1,0 +1,16 @@
+# Made by RandomHashTags
+settings:
+  min mining level: 60
+#
+item:
+  item: "granite"
+  name: "&e&lUltimate Crude Ore"
+  lore:
+  - " "
+  - "&fGeneration Rate: &a&l{GENERATION_RATE}x"
+  - " "
+  - "&fHint: Place this in your cell around"
+  - "&6&lOre Generators&r &fto generate &7&lOre"
+  - " "
+  - "&eRequired Mining Level &f60"
+  - "&7(or Prestige to &d&l<&b&lI&d&l>&r &7buy & place)"

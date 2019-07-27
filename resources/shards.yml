@@ -1,0 +1,5 @@
+# Made by RandomHashTags
+messages:
+  auto sold ores:
+    - "&6&l(!)&r &6Automatically sold &f{AMOUNT} &6ores for: &a${$}"
+#

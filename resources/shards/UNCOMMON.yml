@@ -1,0 +1,44 @@
+# Made by RandomHashTags
+
+item:
+  item: "prismarine_shard"
+  name: "&a&lUncommon Shard"
+  lore:
+  - "&7A powerful relic that"
+  - "&7may contain treasure!"
+  - " "
+  - "&7Contains &a&nUncommon Rarity&r &7items..."
+  - "&a&l*&r &7Uncommon Contrabands"
+  - "&a&l*&r &7Uncommon Randomization Scrolls"
+  - "&a&l*&r &7Energy Absorbers"
+  - "&a&l*&r &7Enchant Dust"
+  - "&a&l*&r &7Charge Orb Items"
+  - "&a&l*&r &7Gold Pickaxes"
+  - "&a&l*&r &7Stone Pickaxes"
+  - "&a&l*&r &7Ore Generators"
+  - "&a&l*&r &7Crude Ore"
+  - "&a&l*&r &7Stash of Ores"
+  - "&a&l*&r &710k - 30k Energy"
+#
+gui:
+  title: "&8&lShards                Prisons"
+  size: 54
+  #
+  background:
+    item: "black_stained_glass_pane"
+    name: " "
+  #
+  added lore to shards:
+    - "&c&lRight-click to take back"
+    - "&a&lClick to open"
+  #
+#
+rewards:
+  - "iron_ore;amount=64;chance=60"
+  - "iron_ore;amount=50;chance=60"
+  - "lapis_lazuli_ore;amount=64;chance=50"
+  - "lapis_lazuli_ore;amount=50;chance=50"
+  - "energy:10000;chance=10"
+  - "energy:20000;chance=8"
+  - "energy:30000;chance=6"
+  - "contraband:UNCOMMON"

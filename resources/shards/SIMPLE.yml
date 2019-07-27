@@ -1,0 +1,38 @@
+# Made by RandomHashTags
+
+item:
+  item: "prismarine_shard"
+  name: "&8&lSimple Shard"
+  lore:
+  - "&7A powerful relic that"
+  - "&7may contain treasure!"
+  - " "
+  - "&7Contains &8&nSimple Rarity&r &7items..."
+  - "&8&l*&r &7Simple Contrabands"
+  - "&8&l*&r &7Simple Randomization Scrolls"
+  - "&8&l*&r &7Energy Absorbers"
+  - "&8&l*&r &7Enchant Dust"
+  - "&8&l*&r &7Charge Orb Items"
+  - "&8&l*&r &7Stone Pickaxes"
+  - "&8&l*&r &7Wood Pickaxes"
+  - "&8&l*&r &7Ore Generators"
+  - "&8&l*&r &7Crude Ore"
+  - "&8&l*&r &7Stash of Ores"
+  - "&8&l*&r &75k - 20k Energy"
+#
+gui:
+  title: "&8&lShards                Prisons"
+  size: 54
+  #
+  background:
+    item: "black_stained_glass_pane"
+    name: " "
+  #
+  added lore to shards:
+    - "&c&lRight-click to take back"
+    - "&a&lClick to open"
+  #
+#
+rewards:
+  - "coal_ore;amount=64"
+  - "iron_ore;amount=64"

@@ -1,0 +1,42 @@
+# Made by RandomHashTags
+
+item:
+  item: "prismarine_shard"
+  name: "&3&lElite Shard"
+  lore:
+  - "&7A powerful relic that"
+  - "&7may contain treasure!"
+  - " "
+  - "&7Contains &3&nElite Rarity&r &7items..."
+  - "&3&l*&r &7Elite Contrabands"
+  - "&3&l*&r &7Elite Randomization Scrolls"
+  - "&3&l*&r &7Energy Absorbers"
+  - "&3&l*&r &7Enchant Re-Rolls"
+  - "&3&l*&r &7Enchant Dust"
+  - "&3&l*&r &7Charge Orb Items"
+  - "&3&l*&r &7Gold Pickaxes"
+  - "&3&l*&r &7Ore Generators"
+  - "&3&l*&r &7Crude Ore"
+  - "&3&l*&r &7Stash of Ores"
+  - "&3&l*&r &720k - 50k Energy"
+#
+gui:
+  title: "&8&lShards                Prisons"
+  size: 54
+  #
+  background:
+    item: "black_stained_glass_pane"
+    name: " "
+  #
+  added lore to shards:
+    - "&c&lRight-click to take back"
+    - "&a&lClick to open"
+  #
+#
+rewards:
+  - "energy:20000;chance=10"
+  - "energy:30000;chance=8"
+  - "energy:40000;chance=6"
+  - "energy:50000;chance=4"
+  - "contraband:ELITE"
+  - "randomizationscroll:ELITE"
