@@ -1,0 +1,149 @@
+# Made by RandomHashTags
+
+wood_sword:
+  min mining level: 1
+  max level: 11
+stone_sword:
+  min mining level: 10
+  max level: 16
+gold_sword:
+  min mining level: 30
+  max level: 21
+iron_sword:
+  min mining level: 60
+  max level: 31
+diamond_sword:
+  min mining level: 100
+  max level: 41
+bow:
+  min mining level: 1
+  max level: 11
+#
+stone_axe:
+  min mining level: 10
+  max level: 16
+gold_axe:
+  min mining level: 30
+  max level: 21
+iron_axe:
+  min mining level: 60
+  max level: 31
+#
+chain_helmet:
+  min mining level: 10
+  max level: 11
+chain_chestplate:
+  min mining level: 10
+  max level: 11
+chain_leggings:
+  min mining level: 10
+  max level: 11
+chain_boots:
+  min mining level: 10
+  max level: 11
+#
+wood_pickaxe:
+  min mining level: 1
+  levels:
+    1: 4800
+    2: 14400
+    4: 33600
+    5: 43200
+    6: 52800
+    20: 187200
+    21: 196800
+    54: 513600
+    57: 542400
+stone_pickaxe:
+  min mining level: 30
+  levels:
+    1: 6000
+    2: 16800
+    5: 49200
+    7: 70800
+    9: 92400
+    10: 103200
+    13: 135600
+    20: 211200
+    26: 276000
+    30: 319200
+    31: 330000
+    33: 351600
+    38: 405600
+gold_pickaxe:
+  min mining level: 50
+  levels:
+    1: 7200
+    2: 19200
+    3: 31200
+    5: 55200
+    6: 67200
+    9: 103200
+    10: 115200
+    12: 139200
+    13: 151200
+    14: 163200
+    17: 199200
+    18: 211200
+    21: 247200
+    25: 295200
+    26: 307200
+    30: 355200
+    35: 415200
+    36: 427200
+    38: 451200
+    39: 463200
+    40: 475200
+    43: 511200
+    45: 535200
+    47: 559200
+    50: 595200
+    51: 607200
+    56: 667200
+    61: 727200
+    65: 775200
+iron_pickaxe:
+  min mining level: 80
+  levels:
+    1: 8400
+    8: 100800
+    10: 127200
+    15: 193200
+    17: 219600
+    19: 246000
+    21: 272400
+    22: 285600
+    23: 298800
+    24: 312000
+    25: 325200
+    31: 404400
+    35: 457200
+    42: 549600
+    43: 562800
+    46: 602400
+    48: 628800
+    50: 655200
+    87: 1143600
+diamond_pickaxe:
+  min mining level: 90
+  levels:
+    1: 9600
+    2: 24000
+    10: 139200
+    11: 153600
+    12: 168000
+    14: 196800
+    15: 211200
+    20: 283200
+    25: 355200
+    30: 427200
+    45: 643200
+    58: 830400
+    60: 859200
+    62: 888000
+    70: 1003200
+    72: 1032000
+    75: 1075200
+    87: 1248000
+    88: 1262400
+    89: 1276800

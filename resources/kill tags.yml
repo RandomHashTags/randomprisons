@@ -1,5 +1,7 @@
 # Made by RandomHashTags
+messages:
 
+#
 item:
   item: "name_tag"
   name: "&c&lKill:&r &6{TAG}"
@@ -9,6 +11,9 @@ item:
   - " "
   - "&7Hint: Drag and drop onto the sword"
   - "&7you wish to apply the message to"
+#
+applies:
+  - "&cOpponent {TAG}&r &cYou"
 #
 tags:
   - "&6shutdown"

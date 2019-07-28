@@ -34,5 +34,6 @@ gui:
   #
 #
 rewards:
-  - "coal_ore;amount=64"
-  - "iron_ore;amount=64"
+  - "coal_ore;amount=64;chance=70"
+  - "iron_ore;amount=64;chance=70"
+  - "coal_ore;amount=50;chance=60"

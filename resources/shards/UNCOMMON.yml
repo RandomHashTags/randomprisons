@@ -34,11 +34,13 @@ gui:
   #
 #
 rewards:
-  - "iron_ore;amount=64;chance=60"
-  - "iron_ore;amount=50;chance=60"
-  - "lapis_lazuli_ore;amount=64;chance=50"
-  - "lapis_lazuli_ore;amount=50;chance=50"
+  - "iron_ore;amount=64;chance=70"
+  - "iron_ore;amount=50;chance=70"
+  - "lapis_lazuli_ore;amount=64;chance=60"
+  - "lapis_lazuli_ore;amount=50;chance=60"
   - "energy:10000;chance=10"
   - "energy:20000;chance=8"
   - "energy:30000;chance=6"
   - "contraband:UNCOMMON"
+  - "stone_pickaxe;chance=10"
+  - "gold_pickaxe;chance=5"
