@@ -1,11 +1,11 @@
 # Made by RandomHashTags
 messages:
-  need to be ast least level to own cell:
+  need to be at least level to own cell:
     - "&cYou must be atleast level &f&l35&r &cMining or Prestige &d&l<&b&lI&d&l>&r &cto own this cell!"
 #
 settings:
   price: 3000000
-  required min mining level: 35
+  required mining level: 35
   required min prestige level: 1
   #
   sections: 6

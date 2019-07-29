@@ -4,7 +4,7 @@ import me.randomhashtags.randomprisons.addons.utils.Itemable;
 
 import java.math.BigDecimal;
 
-public abstract class CellGuard extends Itemable {
+public abstract class CellGuard implements Itemable {
     private int damage, range, speed, health, regen;
     private BigDecimal xp, completion;
 

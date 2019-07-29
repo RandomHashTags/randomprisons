@@ -1,0 +1,41 @@
+# Made by RandomHashTags
+randomization scrolls:
+  MYSTIC:
+    item: "paper"
+    name: "&c&lMystic Randomization Scroll"
+    lore:
+      - " "
+      - "&6When placed on a pickaxe enchant"
+      - "&6it will completely randomize"
+      - "&6the success and failure rates"
+      - "&6of that enchant."
+      - " "
+      - "&eUseable on all enchantment tiers except Godly!"
+      - " "
+      - "&7(Drag and Drop on Enchant)"
+  LEGENDARY:
+    item: "paper"
+    name: "&6&lLegendary Randomization Scroll"
+    lore:
+      - " "
+      - "&6When placed on a pickaxe enchant"
+      - "&6it will completely randomize"
+      - "&6the success and failure rates"
+      - "&6of that enchant."
+      - " "
+      - "&aOnly works on &6&lLegendary&r &aEnchants"
+      - " "
+      - "&7(Drag and Drop on Enchant)"
+  ELITE:
+    item: "paper"
+    name: "&3&lElite Randomization Scroll"
+    lore:
+      - " "
+      - "&6When placed on a pickaxe enchant"
+      - "&6it will completely randomize"
+      - "&6the success and failure rates"
+      - "&6of that enchant."
+      - " "
+      - "&aOnly works on &3&lElite&r &aEnchants"
+      - " "
+      - "&7(Drag and Drop on Enchant)"

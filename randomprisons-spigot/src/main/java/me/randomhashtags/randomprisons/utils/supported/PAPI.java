@@ -1,15 +1,11 @@
 package me.randomhashtags.randomprisons.utils.supported;
 
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
-import me.randomhashtags.randompackage.RandomPackage;
-import me.randomhashtags.randompackage.addons.Title;
-import me.randomhashtags.randompackage.addons.objects.CoinFlipStats;
-import me.randomhashtags.randompackage.utils.RPPlayer;
+import me.randomhashtags.randomprisons.RandomPrisons;
+import me.randomhashtags.randomprisons.utils.RPPlayer;
 import org.bukkit.entity.Player;
 
 import java.util.UUID;
-
-import static me.randomhashtags.randompackage.RandomPackageAPI.api;
 
 public class PAPI extends PlaceholderExpansion {
     private static PAPI instance;
@@ -18,23 +14,23 @@ public class PAPI extends PlaceholderExpansion {
         return instance;
     }
     private PAPI() {
-        api.sendConsoleMessage("&6[RandomPackage] &aHooked PlaceholderAPI");
+        api.sendConsoleMessage("&6[RandomPrisons] &aHooked PlaceholderAPI");
         register();
     }
 
     @Override
     public String getIdentifier() {
-        return "randompackage";
+        return "randomprisons";
     }
 
     @Override
     public String getAuthor() {
-        return "RandomHashTags & GMatrixGames";
+        return "RandomHashTags";
     }
 
     @Override
     public String getVersion() {
-        return RandomPackage.getPlugin.getDescription().getVersion();
+        return RandomPrisons.getPlugin.getDescription().getVersion();
     }
 
     @Override

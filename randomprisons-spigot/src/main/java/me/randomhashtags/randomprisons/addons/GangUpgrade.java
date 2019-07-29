@@ -1,11 +1,12 @@
 package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Attributeable;
+import me.randomhashtags.randomprisons.addons.utils.Itemable;
 
 import java.util.List;
 
-public abstract class GangUpgrade extends Attributeable {
-    public abstract int getSlot();
-    public abstract int getTier();
-    public abstract List<String> getCost();
+public interface GangUpgrade extends Itemable, Attributeable {
+    int getSlot();
+    int getTier();
+    List<String> getCost();
 }

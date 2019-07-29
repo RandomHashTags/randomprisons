@@ -1,11 +1,11 @@
 package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Itemable;
+import me.randomhashtags.randomprisons.addons.utils.RequiredMiningLevel;
 
-public abstract class OreGenerator extends Itemable {
-    public abstract long getGenerationTime();
-    public abstract int getArea();
-    public abstract MiningLevel getRequiredMiningLevel();
-    public abstract Prestige getOrPrestige();
-    public abstract int getXPMultiplierIfUnderRequiredMiningLevel();
+public interface OreGenerator extends Itemable, RequiredMiningLevel {
+    long getGenerationTime();
+    int getArea();
+    Prestige getOrPrestige();
+    int getXPMultiplierIfUnderRequiredMiningLevel();
 }

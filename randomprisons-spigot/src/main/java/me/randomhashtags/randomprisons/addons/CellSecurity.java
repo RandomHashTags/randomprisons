@@ -1,13 +1,13 @@
 package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Itemable;
+import me.randomhashtags.randomprisons.addons.utils.RequiredMiningLevel;
 import org.bukkit.Location;
 
 import java.math.BigDecimal;
 
-public abstract class CellSecurity extends Itemable {
-    public abstract String getName();
-    public abstract int getRequiredMiningLevel();
-    public abstract BigDecimal getPrice();
-    public abstract Location getTeleportLocation();
+public interface CellSecurity extends Itemable, RequiredMiningLevel {
+    String getName();
+    BigDecimal getPrice();
+    Location getTeleportLocation();
 }

@@ -34,9 +34,14 @@ gui:
   #
 #
 rewards:
-  - "energy:20000;chance=10"
-  - "energy:30000;chance=8"
-  - "energy:40000;chance=6"
-  - "energy:50000;chance=4"
+  - "lapis_lazuli_ore;amount=64;chance=70"
+  - "lapis_lazuli_ore;amount=50;chance=70"
+  - "redstone_ore;amount=65;chance=60"
+  - "redstone_ore;amount=50;chance=60"
+  - "energy:20000;chance=15"
+  - "energy:30000;chance=14"
+  - "energy:40000;chance=12"
+  - "energy:50000;chance=10"
   - "contraband:ELITE;chance=5"
   - "randomizationscroll:ELITE;chane=5"
+  - "gold_pickaxe;chance=10"

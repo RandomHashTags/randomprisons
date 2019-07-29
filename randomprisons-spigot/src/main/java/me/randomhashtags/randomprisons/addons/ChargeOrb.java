@@ -1,8 +1,7 @@
 package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Itemable;
+import me.randomhashtags.randomprisons.addons.utils.Percentable;
 
-public abstract class ChargeOrb extends Itemable {
-    public abstract int getMaxPercent();
-    public abstract int getMinPercent();
+public interface ChargeOrb extends Itemable, Percentable {
 }

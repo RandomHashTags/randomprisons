@@ -1,0 +1,75 @@
+# Made by RandomHashTags
+messages:
+  step completed prefix: "&r&7&m"
+  #
+  decoded:
+    - " "
+    - "&8&l(!) Simple CLUE SCROLL DECODED! First step:"
+    - "&8&l1.&r &f&n{STEP}"
+    - " "
+  step compeleted:
+    - " "
+    - "&8&l(!) CLUE STEP COMPLETE! Next step:"
+    - "&8&l{STEP#}.&r &f&n{STEP}"
+    - " "
+  scroll completed:
+    - " "
+    - "&8&l(!) CLUE SCROLL COMPLETE!"
+    - "&8&lDiscovered: Simple Clue Casket"
+    - " "
+#
+steps:
+  to complete: 4
+  1:
+    Trade a player at least 1 item:
+      - ""
+  2:
+    Lose $1,000+ from /coinflip:
+      - ""
+  3:
+    Level up a Wooden+ Pickaxe:
+      - ""
+#
+undiscovered:
+  item: "map"
+  name: "&8&lMystery Simple Clue Scroll"
+  lore:
+  - " "
+  - "&7Complete this Clue Scroll to discover"
+  - "&7a casket filled with XP, Money, and Items!"
+  - "&7Use &n/help cluescrolls&r &7to learn more!"
+  - " "
+  - "&7(Right-click to decode the clue!)"
+#
+discovered:
+  item: "filled_map"
+  name: "&8&lMystery Simple Clue Scroll"
+  lore:
+  - " "
+  - "&8&l&nClue Challenges"
+  - "&8&l{STEP#}.&r &f&n{STEP}"
+  - " "
+  - "&7Complete this Clue Scroll to discover"
+  - "&7a casket filled with XP, Money, and Items!"
+  - "&7Use &n/help cluescrolls&r &7to learn more!"
+#
+casket:
+  item: "chest"
+  name: "&8&lSimple Clue Casket"
+  lore:
+  - " "
+  - "&8&lContents"
+  - " &8&l*&r &fSimple XP Bottle"
+  - " &8&l*&r &fMoney"
+  - " &8&l*&r &fand other Simple items!"
+  - " "
+  - "&7Obtained from completing a Clue Scroll."
+  - "&7Use &n/help cluescrolls&r &7to learn more!"
+  - " "
+  - "&7(Right-click to open!)"
+  #
+  rewards:
+    - "xpbottle:SIMPLE:57244:{PLAYER}"
+    - "money:12848:{PLAYER}"
+    - "contraband:SIMPLE"
+    - "shard:SIMPLE;amount=10"

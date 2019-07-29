@@ -2,6 +2,6 @@ package me.randomhashtags.randomprisons.addons.utils;
 
 import org.bukkit.inventory.ItemStack;
 
-public abstract class Itemable extends Identifyable {
-    public abstract ItemStack geItem();
+public interface Itemable extends Identifyable {
+    ItemStack getItem();
 }

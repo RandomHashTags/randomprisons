@@ -1,7 +1,9 @@
 package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Itemable;
+import me.randomhashtags.randomprisons.addons.utils.RequiredMiningLevel;
+import org.bukkit.inventory.ItemStack;
 
-public abstract class ClueScroll extends Itemable {
-    public abstract MiningLevel getRequiredMiningLevel();
+public interface ClueScroll extends Itemable, RequiredMiningLevel {
+    ItemStack getUndiscovered();
 }

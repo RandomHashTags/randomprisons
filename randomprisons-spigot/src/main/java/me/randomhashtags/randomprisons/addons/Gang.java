@@ -8,14 +8,14 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.UUID;
 
-public abstract class Gang {
-    public abstract UUID getUUID();
-    public abstract UUID getOwner();
-    public abstract String getTitle();
-    public abstract String getInfo();
-    public abstract String getDescription();
-    public abstract HashMap<UUID, String> getTags();
-    public abstract BigDecimal getBank();
-    public abstract List<GangUpgrade> getUpgrades();
-    public abstract LinkedHashMap<UUID, GangRelation> getRelations();
+public interface Gang {
+    UUID getUUID();
+    UUID getOwner();
+    String getTitle();
+    String getInfo();
+    String getDescription();
+    HashMap<UUID, String> getTags();
+    BigDecimal getBank();
+    List<GangUpgrade> getUpgrades();
+    LinkedHashMap<UUID, GangRelation> getRelations();
 }

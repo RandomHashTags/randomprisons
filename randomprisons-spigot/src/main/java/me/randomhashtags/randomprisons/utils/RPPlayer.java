@@ -15,7 +15,8 @@ public class RPPlayer {
     private PlayerOptions options;
     private MiningLevel levelcap, mininglevel;
     private CriminalRecord record;
-    private BigDecimal blocksMined, raidsCompleted, miningxp;
+    private BigDecimal blocksMined, raidsCompleted, miningxp, drankMiningXP;
+    private long drankMiningXPExpiration;
     private KillTag killtag;
     private List<PlayerAttribute> attributes;
 

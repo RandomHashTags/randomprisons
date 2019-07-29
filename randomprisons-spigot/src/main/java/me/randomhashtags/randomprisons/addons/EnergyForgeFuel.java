@@ -5,6 +5,6 @@ import me.randomhashtags.randomprisons.addons.utils.Itemable;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 
-public abstract class EnergyForgeFuel extends Itemable {
-    public abstract LinkedHashMap<EnergyForge, BigDecimal> getRates();
+public interface EnergyForgeFuel extends Itemable {
+    LinkedHashMap<EnergyForge, BigDecimal> getRates();
 }

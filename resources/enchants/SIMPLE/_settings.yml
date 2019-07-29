@@ -1,0 +1,19 @@
+# Made by RandomHashTags
+messages:
+  examined:
+    - "&7&l(!)&r &7You received: {ENCHANT}"
+#
+mystery:
+  item: "book"
+  name: "&f&lMystery Simple Enchant"
+  lore:
+  - " "
+  - "&fContains a &lSimple"
+  - " &ftier gear enchantment!"
+  - " "
+  - "&7Hint: Right-click to examine!"
+#
+names:
+  max level: "&f&l{ENCHANT}&r &b&l{LEVEL}&r &7(&f{SUCCESS%}%&7)"
+  not max level: "&f{ENCHANT} &b{LEVEL} &7(&f{SUCCESS%}%&7)"
+#

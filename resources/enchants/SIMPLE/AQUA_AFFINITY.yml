@@ -1,0 +1,12 @@
+# Made by RandomHashTags
+enabled: false
+#
+max level: 1
+name: "&f&lAqua Affinity"
+lore:
+  - "&7&oIncreases underwater mining"
+  - "&7&orate"
+applies to: "_axe"
+#
+attributes:
+  - ""

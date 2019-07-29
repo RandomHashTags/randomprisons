@@ -5,10 +5,10 @@ import org.bukkit.potion.PotionEffect;
 
 import java.util.List;
 
-public abstract class Warden {
-    public abstract boolean staresAtNearbyPlayer();
-    public abstract int nearbyRadius();
-    public abstract double getMaxHealth();
-    public abstract EntityEquipment getEquipment();
-    public abstract List<PotionEffect> getPotionEffects();
+public interface Warden {
+    boolean staresAtNearbyPlayer();
+    int getNearbyRadius();
+    double getMaxHealth();
+    EntityEquipment getEquipment();
+    List<PotionEffect> getPotionEffects();
 }

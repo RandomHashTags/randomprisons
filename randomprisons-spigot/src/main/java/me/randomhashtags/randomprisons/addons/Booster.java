@@ -1,6 +1,7 @@
 package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Attributeable;
+import me.randomhashtags.randomprisons.addons.utils.Itemable;
 
-public abstract class Booster extends Attributeable {
+public interface Booster extends Itemable, Attributeable {
 }

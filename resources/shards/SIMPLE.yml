@@ -35,5 +35,6 @@ gui:
 #
 rewards:
   - "coal_ore;amount=64;chance=70"
-  - "iron_ore;amount=64;chance=70"
   - "coal_ore;amount=50;chance=60"
+  - "iron_ore;amount=64;chance=70"
+  - "randomizationscroll:SIMPLE;chance=5"

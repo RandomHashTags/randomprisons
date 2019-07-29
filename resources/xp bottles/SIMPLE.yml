@@ -1,0 +1,15 @@
+# Made by RandomHashTags
+min mining level: 10
+
+item:
+  item: "potion_of_leaping"
+  name: "&8&l{XP} XP Bottle"
+  lore:
+    - "&dApplies &a&l+{XP}&r &c&lMining XP"
+    - " &dto your character!"
+    - " "
+    - "&6Extracted by &f{PLAYER}"
+    - " "
+    - "&7Hint: Drink to apply!"
+    - " "
+    - "&eRequired Mining Level &f&l10"

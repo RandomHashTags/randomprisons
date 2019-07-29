@@ -1,6 +1,7 @@
 package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Attributeable;
+import me.randomhashtags.randomprisons.addons.utils.Itemable;
 
-public abstract class PlayerAttribute extends Attributeable {
+public interface PlayerAttribute extends Itemable, Attributeable {
 }
