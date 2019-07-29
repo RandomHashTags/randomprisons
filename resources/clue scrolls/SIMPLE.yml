@@ -7,7 +7,7 @@ messages:
     - "&8&l(!) Simple CLUE SCROLL DECODED! First step:"
     - "&8&l1.&r &f&n{STEP}"
     - " "
-  step compeleted:
+  step completed:
     - " "
     - "&8&l(!) CLUE STEP COMPLETE! Next step:"
     - "&8&l{STEP#}.&r &f&n{STEP}"

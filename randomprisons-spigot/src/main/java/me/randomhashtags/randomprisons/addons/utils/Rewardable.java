@@ -2,7 +2,8 @@ package me.randomhashtags.randomprisons.addons.utils;
 
 import java.util.List;
 
-public interface Rewardable extends Itemable {
-    String getRewardSize();
+public interface Rewardable {
+    int getMinRewardSize();
+    int getMaxRewardSize();
     List<String> getRewards();
 }

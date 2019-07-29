@@ -1,11 +1,9 @@
 package me.randomhashtags.randomprisons.addons;
 
+import me.randomhashtags.randomprisons.addons.utils.Completeable;
 import me.randomhashtags.randomprisons.addons.utils.Itemable;
 
-import java.math.BigDecimal;
-
-public interface Quests extends Itemable {
+public interface Quests extends Itemable, Completeable {
     String getName();
     String getReward();
-    BigDecimal getCompletion();
 }

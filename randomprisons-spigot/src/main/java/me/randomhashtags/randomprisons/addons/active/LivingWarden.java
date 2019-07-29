@@ -1,7 +1,5 @@
 package me.randomhashtags.randomprisons.addons.active;
 
-import me.randomhashtags.randomprisons.addons.Warden;
-
 import java.util.UUID;
 
 public class LivingWarden {

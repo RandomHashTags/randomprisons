@@ -1,0 +1,76 @@
+# Made by RandomHashTags
+title: "&8&lOres          ${BAL}"
+size: 18
+#
+gui:
+  coal ore:
+    slot: 1
+    item: "coal_ore"
+    name: "&b&lCoal Ore"
+    prices: 0;0.06
+  iron ore:
+    slot: 2
+    item: "iron_ore"
+    name: "&b&lIron Ore"
+    prices: 0;0.18
+  lapis lazuli ore:
+    slot: 3
+    item: "lapis_lazuli_ore"
+    name: "&b&lLapis Lazuli Ore"
+    prices: 0;0.54
+  redstone ore:
+    slot: 4
+    item: "redstone_ore"
+    name: "&b&lRedstone Ore"
+    prices: 0;1.62
+  gold ore:
+    slot: 5
+    item: "gold_ore"
+    name: "&b&lGold Ore"
+    prices: 0;4.86
+  diamond ore:
+    slot: 6
+    item: "diamond_ore"
+    name: "&b&lDiamond Ore"
+    prices: 0;14.58
+  emerald ore:
+    slot: 7
+    item: "&b&lEmerald Ore"
+    name: "&b&lEmerald Ore"
+    prices: 0;43.74
+  coal:
+    slot: 10
+    item: "coal"
+    name: "&b&lCoal"
+    prices: 0;0.32
+  iron:
+    slot: 11
+    item: "iron_ingot"
+    name: "&b&lIron"
+    prices: 0;0.96
+  lapis lazuli:
+    slot: 12
+    item: "lapis_lazuli"
+    name: "&b&lLapis Lazuli"
+    prices: 0;2.88
+  redstone:
+    slot: 13
+    item: "redstone"
+    name: "&b&lRedstone"
+    prices: 0;8.64
+  gold:
+    slot: 14
+    item: "gold_ingot"
+    name: "&b&lGold"
+    prices: 0;25.92
+  diamond:
+    slot: 15
+    item: "diamond"
+    name: "&b&lDiamond"
+    prices: 0;77.76
+  emerald:
+    slot: 16
+    item: "emerald"
+    name: "&b&lEmerald"
+    prices: 0;233.28
+#

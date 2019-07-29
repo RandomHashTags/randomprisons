@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 
 public interface Satchel extends Itemable, Attributeable {
-    int getMinStachelLevelToApplyEnchants();
+    int getMinSatchelLevelToApplyEnchants();
     LinkedHashMap<Integer, BigDecimal> getRequiredXP();
     LinkedHashMap<Integer, BigDecimal> getMaxCapacity();
 }

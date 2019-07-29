@@ -2,11 +2,11 @@ package me.randomhashtags.randomprisons.addons;
 
 import me.randomhashtags.randomprisons.addons.utils.Attributeable;
 import me.randomhashtags.randomprisons.addons.utils.Itemable;
+import me.randomhashtags.randomprisons.addons.utils.Levelable;
 
 import java.util.HashMap;
 
-public abstract class Pet implements Itemable, Attributeable {
-    public abstract int getMaxLevel();
+public abstract class Pet implements Itemable, Levelable, Attributeable {
     public abstract HashMap<String, Double> getOutgoingDamageMultipliers();
     public abstract HashMap<String, Double> getIncomingDamageMultipliers();
     public abstract HashMap<String, Long> getDurations();

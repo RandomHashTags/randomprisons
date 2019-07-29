@@ -1,12 +1,8 @@
 package me.randomhashtags.randomprisons.addons;
 
+import me.randomhashtags.randomprisons.addons.utils.Applyable;
 import me.randomhashtags.randomprisons.addons.utils.Attributeable;
 import me.randomhashtags.randomprisons.addons.utils.Itemable;
 
-import java.util.List;
-
-public interface GangUpgrade extends Itemable, Attributeable {
-    int getSlot();
-    int getMaxLevel();
-    List<String> getCost();
+public interface Scroll extends Itemable, Applyable, Attributeable {
 }

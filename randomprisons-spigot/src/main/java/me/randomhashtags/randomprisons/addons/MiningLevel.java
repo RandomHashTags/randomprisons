@@ -7,6 +7,6 @@ import java.util.List;
 public interface MiningLevel {
     int getLevel();
     BigDecimal getLevelXp();
-    List<String> getUnlocked();
+    List<String> getPermanentUnlocks();
     LinkedHashMap<Prestige, List<String>> getUnlockedByPrestige();
 }

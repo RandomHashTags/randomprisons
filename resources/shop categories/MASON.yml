@@ -1,0 +1,21 @@
+# Made by RandomHashTags
+title: "&8&lMason          ${BAL}"
+size: 54
+#
+gui:
+  cobblestone stairs:
+    slot: 0
+    item: "cobblestone_stairs"
+    name: "&fCobblestone Stairs"
+    prices: 15;0
+  cracked stone bricks:
+    slot: 1
+    item: "cracked_stone_bricks"
+    name: "&fCracked Stone Bricks"
+    prices: 30;0
+  stone bricks:
+    slot: 3
+    item: "stone_bricks"
+    name: "&fStone Bricks"
+    prices: 30;0
+#
