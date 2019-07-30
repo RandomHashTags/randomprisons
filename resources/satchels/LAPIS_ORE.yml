@@ -1,0 +1,21 @@
+# Made by RandomHashTags
+item:
+  item: "lapis_lazuli_ore"
+  name: "&3&lLapis Ore Satchel&r &7(&a{XP} &&/ &f{COMPLETION}&7)"
+  lore:
+  - "&a&l{AMOUNT}&r &7&l/&r &f&l{CAPACITY}"
+  - " "
+  - "&b&lEnergy"
+  - " "
+  - "&7(&f{XP} &7/ {COMPLETION})"
+#
+level settings:
+  1:
+    capacity: 2304
+    completion: 9600
+  3:
+    capacity: 6912
+    completion: 31200
+  7:
+    capacity: 16128
+    completion: 74400

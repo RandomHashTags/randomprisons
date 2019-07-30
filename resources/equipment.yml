@@ -4,15 +4,19 @@ wood_sword:
   min mining level: 1
   max level: 11
 stone_sword:
+  max durability: 131
   min mining level: 10
   max level: 16
 gold_sword:
+  max durability: 32
   min mining level: 30
   max level: 21
 iron_sword:
+  max durability: 250
   min mining level: 60
   max level: 31
 diamond_sword:
+  max durability: 1561
   min mining level: 100
   max level: 41
 bow:
@@ -20,6 +24,7 @@ bow:
   max level: 11
 #
 stone_axe:
+  max durability: 131
   min mining level: 10
   max level: 16
 gold_axe:
@@ -30,19 +35,62 @@ iron_axe:
   max level: 31
 #
 chain_helmet:
+  max durability: 165
   min mining level: 10
   max level: 11
 chain_chestplate:
+  max durability: 240
   min mining level: 10
   max level: 11
 chain_leggings:
+  max durability: 225
   min mining level: 10
   max level: 11
 chain_boots:
   min mining level: 10
   max level: 11
 #
+gold_helmet:
+  max durability: 77
+  min mining level: 30
+  max level: 21
+gold_chestplate:
+  max durability: 112
+  min mining level: 30
+  max level: 21
+gold_leggings:
+  max durability: 105
+  min mining level: 30
+  max level: 21
+gold_boots:
+  max durability: 91
+  min mining level: 30
+  max level: 21
+#
+iron_helmet:
+  max durability: 165
+  min mining level: 60
+  max level: 31
+#
+diamond_helmet:
+  max durability: 363
+  min mining level: 100
+  max level: 41
+diamond_chestplate:
+  max durability: 528
+  min mining level: 100
+  max level: 41
+diamond_leggings:
+  max durability: 495
+  min mining level: 100
+  max level: 41
+diamond_boots:
+  max durability: 429
+  min mining level: 100
+  max level: 41
+#
 wood_pickaxe:
+  unbreakable: true
   min mining level: 1
   levels:
     1: 4800
@@ -56,9 +104,11 @@ wood_pickaxe:
     17: 158400
     20: 187200
     21: 196800
+    25: 235200
     54: 513600
     57: 542400
 stone_pickaxe:
+  unbreakable: true
   min mining level: 30
   levels:
     1: 6000
@@ -71,10 +121,13 @@ stone_pickaxe:
     8: 81600
     9: 92400
     10: 103200
+    11: 114000
     12: 124800
     13: 135600
     14: 146400
+    15: 157200
     16: 168000
+    17: 178800
     20: 211200
     21: 222000
     22: 232800
@@ -89,12 +142,15 @@ stone_pickaxe:
     32: 340800
     33: 351600
     38: 405600
+    65: 697200
 gold_pickaxe:
+  unbreakable: true
   min mining level: 50
   levels:
     1: 7200
     2: 19200
     3: 31200
+    4: 43200
     5: 55200
     6: 67200
     7: 79200
@@ -112,12 +168,15 @@ gold_pickaxe:
     19: 223200
     20: 235200
     21: 247200
+    22: 259200
     25: 295200
     26: 307200
+    27: 319200
     29: 343200
     30: 355200
     32: 379200
     33: 319200
+    34: 403200
     35: 415200
     36: 427200
     37: 439200
@@ -135,6 +194,7 @@ gold_pickaxe:
     61: 727200
     65: 775200
 iron_pickaxe:
+  unbreakable: true
   min mining level: 80
   levels:
     1: 8400
@@ -156,9 +216,11 @@ iron_pickaxe:
     22: 285600
     23: 298800
     24: 312000
-    29: 378000
     25: 325200
+    26: 338400
+    29: 378000
     31: 404400
+    32: 417600
     35: 457200
     37: 483600
     40: 523200
@@ -170,6 +232,7 @@ iron_pickaxe:
     50: 655200
     52: 681600
     56: 734400
+    57: 747600
     58: 760800
     60: 787200
     66: 866400
@@ -178,12 +241,15 @@ iron_pickaxe:
     71: 932400
     76: 998400
     87: 1143600
+    91: 1196400
 diamond_pickaxe:
+  unbreakable: true
   min mining level: 90
   levels:
     1: 9600
     2: 24000
     7: 96000
+    8: 110400
     9: 124800
     10: 139200
     11: 153600
@@ -200,10 +266,13 @@ diamond_pickaxe:
     23: 326400
     24: 340800
     25: 355200
+    29: 412800
     30: 427200
     31: 441600
     34: 484800
+    38: 542400
     42: 600000
+    43: 614400
     44: 628800
     45: 643200
     50: 715200
@@ -211,6 +280,7 @@ diamond_pickaxe:
     55: 787200
     58: 830400
     60: 859200
+    61: 873600
     62: 888000
     64: 916800
     66: 945600
@@ -219,6 +289,7 @@ diamond_pickaxe:
     72: 1032000
     74: 1060800
     75: 1075200
+    76: 1089600
     81: 1161600
     83: 1190400
     87: 1248000

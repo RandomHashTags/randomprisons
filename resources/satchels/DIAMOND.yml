@@ -1,0 +1,27 @@
+# Made by RandomHashTags
+item:
+  item: "diamond"
+  name: "&b&lDiamond Satchel&r &7(&a{XP} &&/ &f{COMPLETION}&7)"
+  lore:
+  - "&a&l{AMOUNT}&r &7&l/&r &f&l{CAPACITY}"
+  - " "
+  - "&b&lEnergy"
+  - " "
+  - "&7(&f{XP} &7/ {COMPLETION})"
+#
+level settings:
+  1:
+    capacity: 2304
+    completion: 19800
+  7:
+    capacity: 16128
+    completion: 149400
+  10:
+    capacity: 23040
+    completion: 214200
+  13:
+    capacity: 29952
+    completion: 279000
+  55:
+    capacity: 126720
+    completion: 1186200

@@ -43,6 +43,7 @@ rewards:
   - "energy:40000;chance=11"
   - "energy:50000;chance=9"
   - "contraband:ELITE;chance=5"
-  - "randomizationscroll:ELITE;chane=5"
+  - "randomizationscroll:ELITE;chance=5"
   - "gold_pickaxe;chance=10"
   - "energyabsorber;chance=20"
+  - "dust:ELITE:5;chance=10"

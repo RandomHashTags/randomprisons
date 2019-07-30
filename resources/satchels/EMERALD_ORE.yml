@@ -1,0 +1,30 @@
+# Made by RandomHashTags
+item:
+  item: "emerald_ore"
+  name: "&a&lEmerald Ore Satchel&r &7(&a{XP} &&/ &f{COMPLETION}&7)"
+  lore:
+  - "&a&l{AMOUNT}&r &7&l/&r &f&l{CAPACITY}"
+  - " "
+  - "&b&lEnergy"
+  - " "
+  - "&7(&f{XP} &7/ {COMPLETION})"
+#
+level settings:
+  1:
+    capacity: 2304
+    completion: 14400
+  10:
+    capacity: 23040
+    completion: 154800
+  33:
+    capacity: 76032
+    completion: 513600
+  61:
+    capacity: 140544
+    completion: 950400
+  66:
+    capacity: 152064
+    completion: 1028400
+  68:
+    capacity: 156672
+    completion: 1059600

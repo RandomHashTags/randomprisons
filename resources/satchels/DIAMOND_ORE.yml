@@ -1,0 +1,42 @@
+# Made by RandomHashTags
+item:
+  item: "diamond_ore"
+  name: "&b&lDiamond Ore Satchel&r &7(&a{XP} &&/ &f{COMPLETION}&7)"
+  lore:
+  - "&a&l{AMOUNT}&r &7&l/&r &f&l{CAPACITY}"
+  - " "
+  - "&b&lEnergy"
+  - " "
+  - "&7(&f{XP} &7/ {COMPLETION})"
+#
+level settings:
+  1:
+    capacity: 2304
+    completion: 13200
+  3:
+    capacity: 6912
+    completion: 42000
+  5:
+    capacity: 11520
+    completion: 70800
+  8:
+    capacity: 18432
+    completion: 114000
+  23:
+    capacity: 52992
+    completion: 330000
+  27:
+    capacity: 62208
+    completion: 387600
+  28:
+    capacity: 64512
+    completion: 402000
+  30:
+    capacity: 69120
+    completion: 430800
+  55:
+    capacity: 126720
+    completion: 790800
+  65:
+    capacity: 149760
+    completion: 934800

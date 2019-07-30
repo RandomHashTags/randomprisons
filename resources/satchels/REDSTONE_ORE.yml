@@ -1,0 +1,21 @@
+# Made by RandomHashTags
+item:
+  item: "redstone_ore"
+  name: "&4&lRedstone Ore Satchel&r &7(&a{XP} &&/ &f{COMPLETION}&7)"
+  lore:
+  - "&a&l{AMOUNT}&r &7&l/&r &f&l{CAPACITY}"
+  - " "
+  - "&b&lEnergy"
+  - " "
+  - "&7(&f{XP} &7/ {COMPLETION})"
+#
+level settings:
+  1:
+    capacity: 2304
+    completion: 10800
+  3:
+    capacity: 6912
+    completion: 34800
+  9:
+    capacity: 20736
+    completion: 106800

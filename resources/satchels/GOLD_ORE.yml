@@ -1,0 +1,27 @@
+# Made by RandomHashTags
+item:
+  item: "gold_ore"
+  name: "&e&lGold Ore Satchel&r &7(&a{XP} &&/ &f{COMPLETION}&7)"
+  lore:
+  - "&a&l{AMOUNT}&r &7&l/&r &f&l{CAPACITY}"
+  - " "
+  - "&b&lEnergy"
+  - " "
+  - "&7(&f{XP} &7/ {COMPLETION})"
+#
+level settings:
+  1:
+    capacity: 2304
+    completion: 12000
+  3:
+    capacity: 6912
+    completion: 38400
+  5:
+    capacity: 11520
+    completion: 64800
+  6:
+    capacity: 13824
+    completion: 78000
+  10:
+    capacity: 23040
+    completion: 154800
