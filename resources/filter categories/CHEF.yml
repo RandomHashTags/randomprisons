@@ -1,0 +1,35 @@
+# Made by RandomHashTags
+gui:
+  title: "&8&lChef Filter"
+  size: 54
+  pages: 1
+#
+page 1:
+  apple:
+    slot: 19
+    item: "apple"
+    name: "Apple"
+  bread:
+    slot: 20
+    item: "bread"
+    name: "Bread"
+  cookie:
+    slot: 21
+    item: "cookie"
+    name: "Cookie"
+  steak:
+    slot: 22
+    item: "steak"
+    name: "Steak"
+  cooked chicken:
+    slot: 23
+    item: "cooked_chicken"
+    name: "Cooked Chicken"
+  golden carrot:
+    slot: 24
+    item: "golden_carrot"
+    name: "Golden Carrot"
+  pumpkin pie:
+    slot: 25
+    item: "pumpkin_pie"
+    name: "Pumpkin Pie"

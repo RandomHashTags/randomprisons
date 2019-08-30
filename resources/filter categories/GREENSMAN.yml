@@ -1,0 +1,217 @@
+# Made by RandomHashTags
+gui:
+  title: "&8&lGreensman Filter"
+  size: 54
+  pages: 2
+#
+page 1:
+  acacia sapling:
+    slot: 9
+    item: "acacia_sapling"
+    name: "Acacia Sapling"
+  birch sapling:
+    slot: 10
+    item: "birch_sapling"
+    name: "Birch Sapling"
+  dark oak sapling:
+    slot: 11
+    item: "dark_oak_sapling"
+    name: "Dark Oak Sapling"
+  jungle sapling:
+    slot: 12
+    item: "jungle_sapling"
+    name: "Jungle Sapling"
+  oak sapling:
+    slot: 13
+    item: "oak_sapling"
+    name: "Oak Sapling"
+  spruce sapling:
+    slot: 14
+    item: "Spruce Sapling"
+    name: "Spruce Sapling"
+  birch leaves:
+    slot: 15
+    item: "birch_leaves"
+    name: "Birch Leaves"
+  jungle leaves:
+    slot: 16
+    item: "jungle_leaves"
+    name: "Jungle Leaves"
+  oak leaves:
+    slot: 17
+    item: "oak_leaves"
+    name: "Oak Leaves"
+  spruce leaves:
+    slot: 18
+    item: "spruce_leaves"
+    name: "Spruce Leaves"
+  fern:
+    slot: 19
+    item: "fern"
+    name: "Fern"
+  grass:
+    slot: 20
+    item: "grass"
+    name: "Grass"
+  dead bush:
+    slot: 21
+    item: "dead_bush"
+    name: "Dead Bush"
+  dandelion:
+    slot: 22
+    item: "dandelion"
+    name: "Dandelion"
+  allium:
+    slot: 23
+    item: "allium"
+    name: "Allium"
+  azure_bluet:
+    slot: 24
+    item: "azure_bluet"
+    name: "Azure Bluet"
+  blue orchid:
+    slot: 25
+    item: "blue_orchid"
+    name: "Blue Orchid"
+  orange tulip:
+    slot: 26
+    item: "orange_tulip"
+    name: "Orange Tulip"
+  oxeye daisy:
+    slot: 27
+    item: "oxeye_daisy"
+    name: "Oxeye Daisy"
+  pink tulip:
+    slot: 28
+    item: "pink_tulip"
+    name: "Pink Tulip"
+  poppy:
+    slot: 29
+    item: "poppy"
+    name: "Poppy"
+  red tulip:
+    slot: 30
+    item: "red_tulip"
+    name: "Red Tulip"
+  white tulip:
+    slot: 31
+    item: "white_tulip"
+    name: "White Tulip"
+  brown mushroom:
+    slot: 32
+    item: "brown_mushroom"
+    name: "Brown Mushroom"
+  red mushroom:
+    slot: 33
+    item: "red_mushroom"
+    name: "Red Mushroom"
+  snow layer:
+    slot: 34
+    item: "snow_layer"
+    name: "Snow"
+  ice:
+    slot: 35
+    item: "ice"
+    name: "Ice"
+  snow block:
+    slot: 36
+    item: "snow_block"
+    name: "Snow Block"
+  cactus:
+    slot: 37
+    item: "cactus"
+    name: "Cactus"
+  pumpkin:
+    slot: 38
+    item: "pumpkin"
+    name: "Pumpkin"
+  jack o lantern:
+    slot: 39
+    item: "jack_o_lantern"
+    name: "Jack o'Lantern"
+  melon block:
+    slot: 40
+    item: "melon_block"
+    name: "Melon"
+  vines:
+    slot: 41
+    item: "vine"
+    name: "Vines"
+  lily pad:
+    slot: 42
+    item: "lily_pad"
+    name: "Lily Pad"
+  acacia leaves:
+    slot: 43
+    item: "acacia_leaves"
+    name: "Acacia Leaves"
+  dark oak leaves:
+    slot: 44
+    item: "dark_oak_leaves"
+    name: "Dark Oak Leaves"
+#
+page 2:
+  hay block:
+    slot: 9
+    item: "hay_block"
+    name: "Hay Bale"
+  packed ice:
+    slot: 10
+    item: "packed_ice"
+    name: "Packed Ice"
+  double tallgrass:
+    slot: 11
+    item: "double_tallgrass"
+    name: "Double Tallgrass"
+  large fern:
+    slot: 12
+    item: "large_fern"
+    name: "Large Fern"
+  lilac:
+    slot: 13
+    item: "lilac"
+    name: "Lilac"
+  peony:
+    slot: 14
+    item: "peony"
+    name: "Peony"
+  rose bush:
+    slot: 15
+    item: "rose_bush"
+    name: "Rose Bush"
+  sunflower:
+    slot: 16
+    item: "sunflower"
+    name: "Sunflower"
+  bucket:
+    slot: 17
+    item: "bucket"
+    name: "Bucket"
+  water bucket:
+    slot: 19
+    item: "water_bucket"
+    name: "Water Bucket"
+  cake:
+    slot: 20
+    item: "cake"
+    name: "Cake"
+  flower pot:
+    slot: 21
+    item: "flower_pot"
+    name: "Flower Pot"
+  creeper head:
+    slot: 22
+    item: "creeper_head"
+    name: "Creeper Head"
+  skeleton skull:
+    slot: 23
+    item: "skeleton_head"
+    name: "Skeleton Skull"
+  wither skeleton skull:
+    slot: 24
+    item: "wither_skeleton_skull"
+    name: "Wither Skeleton Skull"
+  zombie head:
+    slot: 25
+    item: "zombie_head"
+    name: "Zombie Head"

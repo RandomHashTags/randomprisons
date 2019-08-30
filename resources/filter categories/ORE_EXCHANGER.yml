@@ -1,0 +1,71 @@
+# Made by RandomHashTags
+gui:
+  title: "&8&lOre Exchanger Filter"
+  size: 54
+  pages: 1
+#
+page 1:
+  prismarine crystals:
+    slot: 18
+    item: "prismarine_crystals"
+    name: "Prismarine Crystals"
+  emerald:
+    slot: 19
+    item: "emerald"
+    name: "Emerald"
+  diamond:
+    slot: 20
+    item: "diamond"
+    name: "Diamond"
+  gold ingot:
+    slot: 21
+    item: "gold_ingot"
+    name: "Gold Ingot"
+  redstone:
+    slot: 22
+    item: "redstone"
+    name: "Redstone"
+  lapis lazuli:
+    slot: 23
+    item: "lapis_lazuli"
+    name: "Lapis Lazuli"
+  iron ingot:
+    slot: 24
+    item: "iron_ingot"
+    name: "Iron Ingot"
+  coal:
+    slot: 25
+    item: "coal"
+    name: "Coal"
+  prismarine:
+    slot: 26
+    item: "prismarine"
+    name: "Prismarine"
+  emerald ore:
+    slot: 28
+    item: "emerald_ore"
+    name: "Emerald Ore"
+  diamond ore:
+    slot: 29
+    item: "diamond_ore"
+    name: "Diamond Ore"
+  gold ore:
+    slot: 30
+    item: "gold_ore"
+    name: "Gold Ore"
+  redstone ore:
+    slot: 31
+    item: "redstone_ore"
+    name: "Redstone Ore"
+  lapis lazuli ore:
+    slot: 32
+    item: "lapis_lazuli_ore"
+    name: "Lapiz Lazuli Ore"
+  iron ore:
+    slot: 33
+    item: "iron_ore"
+    name: "Iron Ore"
+  coal ore:
+    slot: 34
+    item: "coal_ore"
+    name: "Coal Ore"

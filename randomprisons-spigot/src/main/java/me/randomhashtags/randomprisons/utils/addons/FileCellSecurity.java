@@ -1,4 +1,4 @@
-package me.randomhashtags.randomprisons.addons.usingfile;
+package me.randomhashtags.randomprisons.utils.addons;
 
 import me.randomhashtags.randomprisons.addons.CellSecurity;
 import me.randomhashtags.randomprisons.addons.MiningLevel;
@@ -10,7 +10,6 @@ import java.io.File;
 import java.math.BigDecimal;
 
 public class FileCellSecurity extends RPAddon implements CellSecurity {
-
     private ItemStack item;
     public FileCellSecurity(File f) {
         load(f);

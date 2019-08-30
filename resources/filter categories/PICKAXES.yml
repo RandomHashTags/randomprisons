@@ -1,0 +1,27 @@
+# Made by RandomHashTags
+gui:
+  title: "&8&lPickaxes Filter"
+  size: 54
+  pages: 1
+#
+page 1:
+  diamond pickaxe:
+    slot: 20
+    item: "diamond_pickaxe"
+    name: "Diamond Pickaxe"
+  iron pickaxe:
+    slot: 21
+    item: "iron_pickaxe"
+    name: "Iron Pickaxe"
+  golden pickaxe:
+    slot: 22
+    item: "golden_pickaxe"
+    name: "Golden Pickaxe"
+  stone pickaxe:
+    slot: 23
+    item: "stone_pickaxe"
+    name: "Stone Pickaxe"
+  wooden pickaxe:
+    slot: 24
+    item: "wooden_pickaxe"
+    name: "Wooden Pickaxe"

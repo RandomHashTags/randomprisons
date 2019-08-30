@@ -1,0 +1,119 @@
+# Made by RandomHashTags
+gui:
+  title: "&8&lGear Filter"
+  size: 54
+  pages: 1
+#
+page 1:
+  diamond axe:
+    slot: 9
+    item: "diamond_axe"
+    name: "Diamond Axe"
+  diamond sword:
+    slot: 10
+    item: "diamond_sword"
+    name: "Diamond Sword"
+  diamond helmet:
+    slot: 11
+    item: "diamond_helmet"
+    name: "Diamond Helmet"
+  diamond chestplate:
+    slot: 12
+    item: "diamond_chestplate"
+    name: "Diamond Chestplate"
+  diamond leggings:
+    slot: 13
+    item: "diamond_leggings"
+    name: "Diamond Leggings"
+  diamond boots:
+    slot: 14
+    item: "diamond_boots"
+    name: "Diamond Boots"
+  iron axe:
+    slot: 15
+    item: "iron_axe"
+    name: "Iron Axe"
+  iron sword:
+    slot: 16
+    item: "iron_sword"
+    name: "Iron Sword"
+  iron helmet:
+    slot: 17
+    item: "iron_helmet"
+    name: "Iron Helmet"
+  iron chestplate:
+    slot: 18
+    item: "iron_chestplate"
+    name: "Iron Chestplate"
+  iron leggings:
+    slot: 19
+    item: "iron_leggings"
+    name: "Iron Leggings"
+  iron boots:
+    slot: 20
+    item: "iron_boots"
+    name: "Iron Boots"
+  gold axe:
+    slot: 21
+    item: "gold_axe"
+    name: "Gold Axe"
+  gold sword:
+    slot: 22
+    item: "gold_sword"
+    name: "Gold Sword"
+  stone axe:
+    slot: 23
+    item: "stone_axe"
+    name: "Stone Axe"
+  stone sword:
+    slot: 24
+    item: "stone_sword"
+    name: "Stone Sword"
+  gold helmet:
+    slot: 25
+    item: "gold_helmet"
+    name: "Gold Helmet"
+  gold chestplate:
+    slot: 26
+    item: "gold_chestplate"
+    name: "Gold Chestplate"
+  gold leggings:
+    slot: 27
+    item: "gold_leggings"
+    name: "Gold Leggings"
+  gold boots:
+    slot: 28
+    item: "gold_boots"
+    name: "Gold Boots"
+  wood axe:
+    slot: 29
+    item: "wood_axe"
+    name: "Wood Axe"
+  wood sword:
+    slot: 30
+    item: "wood_sword"
+    name: "Wood Sword"
+  chainmail helmet:
+    slot: 31
+    item: "chainmail_helmet"
+    name: "Chain Helmet"
+  chainmail chestplate:
+    slot: 32
+    item: "chainmail_chestplate"
+    name: "Chain Chestplate"
+  chainmail leggings:
+    slot: 33
+    item: "chainmail_leggings"
+    name: "Chain Leggings"
+  chainmail boots:
+    slot: 34
+    item: "chainmail_boots"
+    name: "Chain Boots"
+  bow:
+    slot: 35
+    item: "bow"
+    name: "Bow"
+  arrow:
+    slot: 40
+    item: "arrow"
+    name: "Arrow"

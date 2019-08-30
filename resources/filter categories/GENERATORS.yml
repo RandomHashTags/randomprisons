@@ -1,0 +1,43 @@
+# Made by RandomHashTags
+gui:
+  title: "&8&lGenerators Filter"
+  size: 54
+  pages: 1
+#
+page 1:
+  high security forge:
+    slot: 9
+  maximum security forge:
+    slot: 10
+  medium security forge:
+    slot: 11
+  vip security forge:
+    slot: 12
+  emerald ore generator:
+    slot: 13
+  diamond ore generator:
+    slot: 14
+  gold ore generator:
+    slot: 15
+  redstone ore generator:
+    slot: 16
+  lapis ore generator:
+    slot: 17
+  iron ore generator:
+    slot: 18
+  coal ore generator:
+    slot: 19
+  gen breaker:
+    slot: 20
+  godly crude ore:
+    slot: 21
+  legendary crude ore:
+    slot: 22
+  ultimate crude ore:
+    slot: 23
+  elite crude ore:
+    slot: 24
+  uncommon crude ore:
+    slot: 25
+  simple crude ore:
+    slot: 26

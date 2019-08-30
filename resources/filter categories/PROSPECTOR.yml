@@ -1,0 +1,119 @@
+# Made by RandomHashTags
+gui:
+  title: "&8&lProspector Filter"
+  size: 54
+  pages: 1
+#
+page 1:
+  andesite:
+    slot: 9
+    item: "andesite"
+    name: "Andesite"
+  diorite:
+    slot: 10
+    item: "diorite"
+    name: "Diorite"
+  granite:
+    slot: 11
+    item: "granite"
+    name: "Granite"
+  polished andesite:
+    slot: 12
+    item: "polished_andesite"
+    name: "Polished Andesite"
+  polished diorite:
+    slot: 13
+    item: "polished_diorite"
+    name: "Polished Diorite"
+  polished granite:
+    slot: 14
+    item: "polished_granite"
+    name: "Polished Granite"
+  stone:
+    slot: 15
+    item: "stone"
+    name: "Stone"
+  grass block:
+    slot: 16
+    item: "grass_block"
+    name: "Grass Block"
+  coarse dirt:
+    slot: 17
+    item: "coarse_dirt"
+    name: "Coarse Dirt"
+  dirt:
+    slot: 18
+    item: "dirt"
+    name: "Dirt"
+  podzol:
+    slot: 19
+    item: "Podzol"
+    name: "Podzol"
+  cobblestone:
+    slot: 20
+    item: "cobblestone"
+    name: "Cobblestone"
+  gravel:
+    slot: 21
+    item: "gravel"
+    name: "Gravel"
+  sponge:
+    slot: 22
+    item: "sponge"
+    name: "Sponge"
+  wet sponge:
+    slot: 23
+    item: "wet_sponge"
+    name: "Wet Sponge"
+  lapis lazuli block:
+    slot: 24
+    item: "lapis_lazuli_block"
+    name: "Lapis Lazuli Block"
+  block of gold:
+    slot: 25
+    item: "gold_block"
+    name: "Block of Gold"
+  block of iron:
+    slot: 26
+    item: "iron_block"
+    name: "Block of Iron"
+  quartz slab:
+    slot: 27
+    item: "quartz_slab"
+    name: "Quartz Slab"
+  stone slab:
+    slot: 28
+    item: "stone_slab"
+    name: "Stone Slab"
+  block of diamond:
+    slot: 29
+    item: "diamond_block"
+    name: "Block of Diamond"
+  mycelium:
+    slot: 30
+    item: "mycelium"
+    name: "Mycelium"
+  block of emerald:
+    slot: 31
+    item: "emerald_block"
+    name: "Block of Emerald"
+  block of redstone:
+    slot: 32
+    item: "redstone_block"
+    name: "Block of Redstone"
+  nether quartz ore:
+    slot: 33
+    item: "nether_quartz_ore"
+    name: "Nether Quartz Ore"
+  slime block:
+    slot: 34
+    item: "slime_block"
+    name: "Slime Block"
+  dark prismarine:
+    slot: 35
+    item: "dark_prismarine"
+    name: "Dark Prismarine"
+  block of coal:
+    slot: 40
+    item: "coal_block"
+    name: "Block of Coal"

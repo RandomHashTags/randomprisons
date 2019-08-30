@@ -1,0 +1,184 @@
+# Made by RandomHashTags
+
+gui:
+  title: "&8&lCarpenter Filter"
+  size: 54
+  pages: 2
+#
+page 1:
+  cell guard:
+    slot: 9
+  godly door:
+    slot: 10
+  legendary door:
+    slot: 11
+  ultimate door:
+    slot: 12
+  elite door:
+    slot: 13
+  uncommon door:
+    slot: 14
+  simple door:
+    slot: 15
+  acacia wood planks:
+    slot: 16
+    item: "acacia_wood_planks"
+    name: "Acacia Wood planks"
+  birch wood planks:
+    slot: 17
+    item: "birch_wood_planks"
+    name: "Birch Wood Planks"
+  dark oak wood planks:
+    slot: 18
+    item: "dark_oak_wood_planks"
+    name: "Dark Oak Wood Planks"
+  jungle wood planks:
+    slot: 19
+    item: "jungle_wood_planks"
+    name: "Jungle Wood Planks"
+  oak wood planks:
+    slot: 20
+    item: "oak_wood_planks"
+    name: "Oak Wood Planks"
+  spruce wood planks:
+    slot: 21
+    item: "spruce_wood_planks"
+    name: "Spruce Wood Planks"
+  birch wood:
+    slot: 22
+    item: "birch_wood"
+    name: "Birch Wood"
+  jungle wood:
+    slot: 23
+    item: "jungle_wood"
+    name: "Jungle Wood"
+  oak wood:
+    slot: 24
+    item: "oak_wood"
+    name: "Oak Wood"
+  spruce wood:
+    slot: 25
+    item: "spruce_wood"
+    name: "Spruce Wood"
+  bookshelf:
+    slot: 26
+    item: "bookshelf"
+    name: "Bookshelf"
+  torch:
+    slot: 27
+    item: "torch"
+    name: "Torch"
+  oak wood stairs:
+    slot: 28
+    item: "oak_wood_stairs"
+    name: "Oak Wood Stairs"
+  chest:
+    slot: 29
+    item: "chest"
+    name: "Chest"
+  ladder:
+    slot: 30
+    item: "ladder"
+    name: "Ladder"
+  redstone torch:
+    slot: 31
+    item: "redstone_torch"
+    name: "Redstone Torch"
+  oak fence:
+    slot: 32
+    item: "oak_fence"
+    name: "Oak Fence"
+  glowstone:
+    slot: 33
+    item: "glowstone"
+    name: "Glowstone"
+  redstone lamp:
+    slot: 34
+    item: "redstone_lamp_off"
+    name: "Redstone Lamp"
+  acacia wood slab:
+    slot: 35
+    item: "acacia_wood_slab"
+    name: "Acacia Wood Slab"
+  birch wood slab:
+    slot: 36
+    item: "birch_wood_slab"
+    name: "Birch Wood Slab"
+  dark oak wood slab:
+    slot: 37
+    item: "dark_oak_wood_slab"
+    name: "Dark Oak Wood Slab"
+  jungle wood slab:
+    slot: 38
+    item: "jungle_wood_slab"
+    name: "Jungle Wood Slab"
+  oak wood slab:
+    slot: 39
+    item: "oak_wood_slab"
+    name: "Oak Wood Slab"
+  spruce wood slab:
+    slot: 40
+    item: "spruce_wood_slab"
+    name: "Spruce Wood Slab"
+  spruce wood stairs:
+    slot: 41
+    item: "spruce_wood_stairs"
+    name: "Spruce Wood Stairs"
+  birch wood stairs:
+    slot: 42
+    item: "birch_wood_stairs"
+    name: "Birch Wood Stairs"
+  jungle wood stairs:
+    slot: 43
+    item: "jungle_wood_stairs"
+    name: "Jungle Wood Stairs"
+  trapped chest:
+    slot: 44
+    item: "trapped_chest"
+    name: "Trapped Chest"
+#
+page 2:
+  acacia wood:
+    slot: 9
+    item: "acacia_wood"
+    name: "Acacia Wood"
+  dark oak wood:
+    slot: 10
+    item: "dark_oak_wood"
+    name: "Dark Oak Wood"
+  acacia wood stairs:
+    slot: 11
+    item: "acacia_wood_stairs"
+    name: "Acacia Wood Stairs"
+  dark oak wood stairs:
+    slot: 12
+    item: "dark_oak_wood_stairs"
+    name: "Dark Oak Wood Stairs"
+  sea lantern:
+    slot: 13
+    item: "sea_lantern"
+    name: "Sea Lantern"
+  spruce fence:
+    slot: 14
+    item: "spruce_fence"
+    name: "Spruce Fence"
+  birch fence:
+    slot: 15
+    item: "birch_fence"
+    name: "Birch Fence"
+  jungle fence:
+    slot: 16
+    item: "jungle_fence"
+    name: "Jungle Fence"
+  dark oak fence:
+    slot: 17
+    item: "dark_oak_fence"
+    name: "Dark Oak Fence"
+  acacia fence:
+    slot: 21
+    item: "acacia_fence"
+    name: "Acacia Fence"
+  sign:
+    slot: 22
+    item: "sign"
+    name: "Sign"
