@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 14
+  name: "Hermit Crab"
+  lore:
+    - "+3% Mining speed in Cells"
+#
+attributes:
+  - ""

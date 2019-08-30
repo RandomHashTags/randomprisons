@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 21
+  name: "Master Merchant"
+  lore:
+    - "5% chance to /sell all to give"
+    - "double money"
+#
+attributes:
+  - ""

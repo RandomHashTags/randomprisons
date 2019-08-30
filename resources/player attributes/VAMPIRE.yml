@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 35
+  name: "Vampire"
+  lore:
+    - "+1% Lifesteal"
+#
+attributes:
+  - ""

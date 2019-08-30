@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 25
+  name: "Ore Duplication"
+  lore:
+    - "2% chance to receive double"
+    - "ores"
+#
+attributes:
+  - ""

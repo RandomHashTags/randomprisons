@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 23
+  name: "Meticulous"
+  lore:
+    - "10% chance to receive 1 extra"
+    - "item when opening a Contraband"
+#
+attributes:
+  - ""

@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 15
+  name: "Holy Grail"
+  lore:
+    - "Chance to gain a Satchel while"
+    - "mining"
+#
+attributes:
+  - ""

@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 12
+  name: "Energy Mastery"
+  lore:
+    - "-10% Energy enchant cost"
+#
+attributes:
+  - ""

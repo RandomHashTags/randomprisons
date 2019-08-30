@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 27
+  name: "Satchel Salesman"
+  lore:
+    - "+5% more money when selling"
+    - "ores from Satchels"
+#
+attributes:
+  - ""

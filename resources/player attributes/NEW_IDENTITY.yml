@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 24
+  name: "New Identity"
+  lore:
+    - "15 minutes to lose your Villain"
+    - "status"
+#
+attributes:
+  - ""

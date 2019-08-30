@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 32
+  name: "Treasure Hunter"
+  lore:
+    - "+10% chance to discover a Clue"
+    - "Scroll"
+#
+attributes:
+  - ""

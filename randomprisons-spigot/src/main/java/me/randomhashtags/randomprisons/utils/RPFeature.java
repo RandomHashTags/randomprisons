@@ -1,8 +1,7 @@
 package me.randomhashtags.randomprisons.utils;
 
-import me.randomhashtags.randomprisons.api.unfinished.CustomEnchants;
+import me.randomhashtags.randomprisons.api.CustomEnchants;
 import me.randomhashtags.randomprisons.utils.universal.UMaterial;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
@@ -12,7 +11,6 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.Listener;
-import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.EnchantmentStorageMeta;

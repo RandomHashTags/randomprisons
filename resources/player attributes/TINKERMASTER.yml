@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 30
+  name: "Tinkermaster"
+  lore:
+    - "+25% energy from /tinkerer"
+#
+attributes:
+  - ""

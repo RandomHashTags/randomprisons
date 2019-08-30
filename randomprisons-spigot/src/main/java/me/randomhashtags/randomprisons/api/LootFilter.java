@@ -1,14 +1,14 @@
-package me.randomhashtags.randomprisons.api.unfinished;
+package me.randomhashtags.randomprisons.api;
 
 import me.randomhashtags.randomprisons.utils.RPFeature;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-public class Outposts extends RPFeature implements CommandExecutor {
-    private static Outposts instance;
-    public static Outposts getOutposts() {
-        if(instance == null) instance = new Outposts();
+public class LootFilter extends RPFeature implements CommandExecutor {
+    private static LootFilter instance;
+    public static LootFilter getLootFilter() {
+        if(instance == null) instance = new LootFilter();
         return instance;
     }
 

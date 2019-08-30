@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 22
+  name: "Master Mind"
+  lore:
+    - "+5% chances on Enchant Books you"
+    - "open"
+#
+attributes:
+  - ""

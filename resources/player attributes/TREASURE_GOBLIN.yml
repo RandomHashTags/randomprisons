@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 31
+  name: "Treasure Goblin"
+  lore:
+    - "1% chance for Shard drops to"
+    - "convert to Contrabands"
+#
+attributes:
+  - ""

@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 34
+  name: "Ultra Instinct"
+  lore:
+    - "1% chance to dodge attacks"
+#
+attributes:
+  - ""

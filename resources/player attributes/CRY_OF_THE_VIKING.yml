@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 11
+  name: "Cry of the Viking"
+  lore:
+    - "+10% damage while under 33%"
+    - "health"
+#
+attributes:
+  - ""

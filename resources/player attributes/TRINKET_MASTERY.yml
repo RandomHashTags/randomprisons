@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 33
+  name: "Trinket Mastery"
+  lore:
+    - "10% chance for Trinket energy"
+    - "cost to be free"
+#
+attributes:
+  - ""

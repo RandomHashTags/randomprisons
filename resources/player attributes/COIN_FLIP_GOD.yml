@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 10
+  name: "Coin Flip God"
+  lore:
+    - "+1% /cf win chance"
+#
+attributes:
+  - ""

@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 29
+  name: "Surgical Extraction"
+  lore:
+    - "10% chance for /extract to not"
+    - "charge any fee"
+#
+attributes:
+  - ""

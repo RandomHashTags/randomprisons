@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 17
+  name: "King of the Hills"
+  lore:
+    - "25% chance for 1 extra life at"
+    - "KOTH"
+#
+attributes:
+  - ""

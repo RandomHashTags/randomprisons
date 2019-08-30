@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 13
+  name: "Hardened Killer"
+  lore:
+    - "+30% more ore from Ore"
+    - "Meteorites in the PvP Pit"
+#
+attributes:
+  - ""

@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 28
+  name: "Shoplifter"
+  lore:
+    - "+10% resistance and damage to"
+    - "Merchants and Merchant Guards"
+#
+attributes:
+  - ""

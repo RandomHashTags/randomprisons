@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 19
+  name: "Luck"
+  lore:
+    - "Makes you lucky"
+#
+attributes:
+  - ""

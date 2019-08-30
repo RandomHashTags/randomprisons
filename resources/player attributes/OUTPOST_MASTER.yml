@@ -1,0 +1,10 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 26
+  name: "Outpost Master"
+  lore:
+    - "+200% Outpost cap speed"
+#
+attributes:
+  - ""

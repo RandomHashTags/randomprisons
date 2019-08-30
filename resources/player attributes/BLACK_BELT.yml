@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 9
+  name: "Black Belt"
+  lore:
+    - "+5% damage to all non player"
+    - "characters"
+#
+attributes:
+  - ""

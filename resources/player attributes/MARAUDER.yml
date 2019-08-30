@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 20
+  name: "Marauder"
+  lore:
+    - "+10% resistance and damage to"
+    - "Bandits"
+#
+attributes:
+  - ""

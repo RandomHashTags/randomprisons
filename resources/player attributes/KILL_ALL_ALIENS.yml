@@ -1,0 +1,11 @@
+# Made by RandomHashTags
+settings:
+  enabled: true
+  slot: 16
+  name: "Kill All Aliens"
+  lore:
+    - "+20% resistance and damage to"
+    - "Aliens"
+#
+attributes:
+  - ""

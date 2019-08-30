@@ -1,0 +1,70 @@
+# Made by RandomHashTags
+messages:
+  withdraw usage:
+    - "&c&l(!)&r &cUsage: &b&n/bb withdraw <$>"
+  deposit usage:
+    - "&c&l(!)&r &cUsage: &e&n/bb deposit <$>"
+#
+gui:
+  title: "&8&lBank Block Manager"
+  size: 18
+  #
+  info:
+    slot: 4
+    item: "book"
+    name: "&a&lBank Block Manager"
+    lore:
+      - " "
+      - "&7The Bank Block Manager is here for"
+      - "&7you to invest your hard earned cash"
+      - "&7here on this server!"
+      - " "
+      - "&7You can deposit up to &a${MAX}"
+      - "&7currently and you can increase this"
+      - "&7limit as you level up!"
+      - " "
+      - "&7Once you have deposited some money"
+      - "&7it will gain &a&l+3.25%&r &7interest"
+      - "&7every time you level up! You can"
+      - "&7withdraw your money at any time, but..."
+      - " "
+      - "&c&l&nPENALTY"
+      - "&cPlayers who are under level &f&n100"
+      - "&cwill have to pay a &n25%&r &cwithdrawl fee"
+      - "&cfor taking out your investment too soon!"
+      - " "
+      - "&7&l&nNOTE"
+      - "&7Your money is automatically"
+      - "&7extracted when you prestige!"
+      - "&7You can only gain interest the"
+      - "&7first time you hit a level every"
+      - "&7prestige, extracting xp and"
+      - "&7re-levelling will not incur interest!"
+  #
+  withdraw:
+    slot: 11
+    item: "paper"
+    name: "&a&l/bb withdraw &n<$>"
+    lore:
+      - " "
+      - "&fBalance: &a{BAL}"
+      - "&fBalance Cap: &a${MAX}"
+      - "&fInterest Rate: &a+{INTEREST}%"
+      - "&cWithdraw Tax Rate: -{TAX_RATE}%"
+      - " "
+      - "&7(Click)"
+  deposit:
+    slot: 15
+    item: "jukebox"
+    name: "&e&l/bb deposit &n<$>"
+    lore:
+      - " "
+      - "&fBalance: &e${BAL}"
+      - "&fBalance Cap: &e${MAX}"
+      - "&fInterest Rate: &e+{INTEREST}%"
+      - "&cWithdraw Tax Rate: -{TAX_RATE}%"
+      - " "
+      - "&7(Click)"
+#
+default settings:
+  tax rate percent: 25

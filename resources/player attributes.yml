@@ -1,0 +1,48 @@
+# Made by RandomHashTags
+messages:
+  not slots to claim:
+    - " "
+    - "&c&l(!)&r &cYou do not have any slots available to claim this attribute!"
+    - "&7You gain slots to be able to choose your own attributes every time you prestige."
+    - "&7Additionally, every 10 Mining levels you get a random attribute!"
+    - " "
+#
+unlock types:
+  random: "random"
+#
+gui:
+  title: "&8&lAttributes"
+  size: 36
+  background:
+    item: "black_stained_glass_pane"
+    name: " "
+  locked:
+    item: "red_stained_glass_pane"
+    name: "&c&l{NAME}"
+    lore:
+    - "&c&lLOCKED"
+    - " "
+    - "&c{LORE}"
+  unlocked:
+    item: "lime_stained_glass_pane"
+    name: "&a&l{NAME}"
+    lore:
+    - "&a&lUNLOCKED&r &7(by {TYPE})"
+    - " "
+    - "&a{LORE}"
+  info:
+    slot: 4
+    item: "book"
+    name: "&a&lPlayer Attributes"
+    lore:
+      - "&7You unlock 1 random Attribute for every"
+      - "&710 Mining levels you gain, up to 100."
+      - "&7NOTE: After Prestiging you will not gain"
+      - "&7a random Attribute every 10 levels."
+      - " "
+      - "&7Additionally, every time you Prestige you"
+      - "&7unlock 1 slot which gives you the ability"
+      - "&7to choose which Attribute you want!"
+      - "&7NOTE: Slots gained by Prestiging carry over"
+      - "&7when the planet resets!"
+#
