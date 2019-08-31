@@ -14,6 +14,8 @@ public class Shards extends RPFeature {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Shards &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

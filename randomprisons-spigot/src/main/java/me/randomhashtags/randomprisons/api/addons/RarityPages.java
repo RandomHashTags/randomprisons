@@ -10,6 +10,8 @@ public class RarityPages extends RPFeature {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Rarity Pages &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

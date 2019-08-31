@@ -1,6 +1,8 @@
 package me.randomhashtags.randomprisons.api;
 
 import me.randomhashtags.randomprisons.utils.RPFeature;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerInteractEvent;
 
 public class Contrabands extends RPFeature {
     private static Contrabands instance;
@@ -10,7 +12,13 @@ public class Contrabands extends RPFeature {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Contrabands &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
+    }
+
+    @EventHandler
+    private void playerInteractEvent(PlayerInteractEvent event) {
     }
 }

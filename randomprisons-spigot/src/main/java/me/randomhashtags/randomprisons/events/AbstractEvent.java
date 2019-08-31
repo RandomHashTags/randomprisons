@@ -1,4 +1,4 @@
-package me.randomhashtags.randomprisons.api.events;
+package me.randomhashtags.randomprisons.events;
 
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;

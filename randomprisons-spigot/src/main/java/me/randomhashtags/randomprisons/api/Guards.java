@@ -1,6 +1,7 @@
 package me.randomhashtags.randomprisons.api;
 
 import me.randomhashtags.randomprisons.utils.RPFeature;
+import org.bukkit.configuration.file.YamlConfiguration;
 
 public class Guards extends RPFeature {
     private static Guards instance;
@@ -9,7 +10,11 @@ public class Guards extends RPFeature {
         return instance;
     }
 
+    private YamlConfiguration config;
+
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Guards &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

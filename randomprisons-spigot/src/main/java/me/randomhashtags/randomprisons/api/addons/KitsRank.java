@@ -10,6 +10,8 @@ public class KitsRank extends RPFeature {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Rank Kits &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

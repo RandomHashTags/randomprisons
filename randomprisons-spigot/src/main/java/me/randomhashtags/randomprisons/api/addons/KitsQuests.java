@@ -1,6 +1,8 @@
 package me.randomhashtags.randomprisons.api.addons;
 
-public class KitsQuests {
+import me.randomhashtags.randomprisons.utils.RPFeature;
+
+public class KitsQuests extends RPFeature {
     private static KitsQuests instance;
     public static KitsQuests getKitsQuests() {
         if(instance == null) instance = new KitsQuests();
@@ -8,6 +10,8 @@ public class KitsQuests {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Quest Kits &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

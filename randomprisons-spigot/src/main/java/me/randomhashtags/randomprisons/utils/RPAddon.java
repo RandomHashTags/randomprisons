@@ -13,10 +13,10 @@ public class RPAddon extends RPStorage {
     protected File file;
     protected YamlConfiguration yml;
     public void load(File file) {
-        if(!file.exists()) {
+        if(file.exists()) {
+            this.file = file;
+            yml = YamlConfiguration.loadConfiguration(file);
         }
-        this.file = file;
-        yml = YamlConfiguration.loadConfiguration(file);
     }
     public File getFile() { return file; }
     public YamlConfiguration getYaml() { return yml; }

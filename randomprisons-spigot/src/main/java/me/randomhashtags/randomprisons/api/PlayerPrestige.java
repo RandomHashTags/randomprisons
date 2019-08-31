@@ -17,6 +17,8 @@ public class PlayerPrestige extends RPFeature implements CommandExecutor {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Player Prestige &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

@@ -4,6 +4,7 @@ import me.randomhashtags.randomprisons.utils.RPFeature;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -15,11 +16,15 @@ public class Warps extends RPFeature implements CommandExecutor {
         return instance;
     }
 
+    private YamlConfiguration config;
+
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         return true;
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Warps &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

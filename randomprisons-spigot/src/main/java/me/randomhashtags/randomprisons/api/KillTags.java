@@ -22,14 +22,13 @@ public class KillTags extends RPFeature {
     private ItemStack killtag;
 
     public void load() {
+        final long started = System.currentTimeMillis();
         save(null, "kill tags.yml");
         config = YamlConfiguration.loadConfiguration(new File(rpd, "kill tags.yml"));
         killtag = d(config, "item");
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Kill Tags &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
-        config = null;
-        killtag = null;
-        instance = null;
     }
 
 

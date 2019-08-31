@@ -1,6 +1,8 @@
 package me.randomhashtags.randomprisons.api.addons;
 
-public class KitsGlobal {
+import me.randomhashtags.randomprisons.utils.RPFeature;
+
+public class KitsGlobal extends RPFeature {
     private static KitsGlobal instance;
     public static KitsGlobal getKitsGlobal() {
         if(instance == null) instance = new KitsGlobal();
@@ -8,6 +10,8 @@ public class KitsGlobal {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Global Kits &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

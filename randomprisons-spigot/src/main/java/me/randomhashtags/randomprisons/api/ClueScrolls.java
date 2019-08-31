@@ -10,6 +10,8 @@ public class ClueScrolls extends RPFeature {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Clue Scrolls &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

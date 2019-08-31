@@ -4,14 +4,16 @@ import me.randomhashtags.randomprisons.utils.RPFeature;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-public class Pets extends RPFeature {
-    private static Pets instance;
-    public static Pets getPets() {
-        if(instance == null) instance = new Pets();
+public class InventoryPets extends RPFeature {
+    private static InventoryPets instance;
+    public static InventoryPets getInventoryPets() {
+        if(instance == null) instance = new InventoryPets();
         return instance;
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Inventory Pets &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }

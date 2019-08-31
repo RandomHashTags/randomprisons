@@ -10,6 +10,8 @@ public class Meteors extends RPFeature {
     }
 
     public void load() {
+        final long started = System.currentTimeMillis();
+        sendConsoleMessage("&6[RandomPrisons] &aLoaded Meteors &e(took " + (System.currentTimeMillis()-started) + "ms)");
     }
     public void unload() {
     }
