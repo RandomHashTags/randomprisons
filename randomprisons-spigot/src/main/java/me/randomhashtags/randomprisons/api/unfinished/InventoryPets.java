@@ -1,6 +1,6 @@
 package me.randomhashtags.randomprisons.api.unfinished;
 
-import me.randomhashtags.randomprisons.utils.RPFeature;
+import me.randomhashtags.randomprisons.util.RPFeature;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerInteractEvent;
 

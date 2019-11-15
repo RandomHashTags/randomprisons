@@ -1,6 +1,6 @@
 package me.randomhashtags.randomprisons.api.addons;
 
-import me.randomhashtags.randomprisons.utils.RPFeature;
+import me.randomhashtags.randomprisons.util.RPFeature;
 
 public class RandomizationScrolls extends RPFeature {
     private static RandomizationScrolls instance;

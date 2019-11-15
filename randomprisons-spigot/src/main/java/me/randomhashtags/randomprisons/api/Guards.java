@@ -1,6 +1,6 @@
 package me.randomhashtags.randomprisons.api;
 
-import me.randomhashtags.randomprisons.utils.RPFeature;
+import me.randomhashtags.randomprisons.util.RPFeature;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 public class Guards extends RPFeature {

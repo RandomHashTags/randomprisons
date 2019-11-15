@@ -1,6 +1,6 @@
 package me.randomhashtags.randomprisons.api.unfinished;
 
-import me.randomhashtags.randomprisons.utils.RPFeature;
+import me.randomhashtags.randomprisons.util.RPFeature;
 
 public class Trinkets extends RPFeature {
     private static Trinkets instance;

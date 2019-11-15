@@ -1,6 +1,6 @@
 package me.randomhashtags.randomprisons.api;
 
-import me.randomhashtags.randomprisons.utils.RPFeature;
+import me.randomhashtags.randomprisons.util.RPFeature;
 
 public class ClueScrolls extends RPFeature {
     private static ClueScrolls instance;
