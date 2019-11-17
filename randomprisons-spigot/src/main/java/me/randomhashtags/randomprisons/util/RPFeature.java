@@ -2,6 +2,7 @@ package me.randomhashtags.randomprisons.util;
 
 import me.randomhashtags.randomprisons.api.CustomEnchants;
 import me.randomhashtags.randomprisons.util.universal.UMaterial;
+import me.randomhashtags.randomprisons.util.universal.UVersion;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
@@ -22,7 +23,7 @@ import java.util.TreeMap;
 
 import static me.randomhashtags.randomprisons.RandomPrisons.getPlugin;
 
-public abstract class RPFeature extends RPStorage implements Listener {
+public abstract class RPFeature extends UVersion implements Listener {
     private boolean isEnabled = false;
     public boolean isEnabled() { return isEnabled; }
 

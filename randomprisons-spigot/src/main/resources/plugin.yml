@@ -1,4 +1,4 @@
 name: RandomPrisons
-version: @version@
+version: 1.0.0
 main: me.randomhashtags.randomprisons.RandomPrisons
 api-version: 1.13

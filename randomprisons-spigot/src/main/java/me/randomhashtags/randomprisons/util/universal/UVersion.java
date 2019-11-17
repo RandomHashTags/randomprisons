@@ -3,13 +3,11 @@ package me.randomhashtags.randomprisons.util.universal;
 import me.randomhashtags.randomprisons.RandomPrisons;
 import me.randomhashtags.randomprisons.util.supported.SpawnerAPI;
 import org.bukkit.*;
-import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.*;
 import org.bukkit.event.entity.ProjectileHitEvent;
-import org.bukkit.inventory.EntityEquipment;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
@@ -25,11 +23,10 @@ import java.io.File;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.NumberFormat;
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-public class UVersion {
+public class UVersion implements UVersionable {
     private static UVersion instance;
     public static UVersion getUVersion() {
         if(instance == null) instance = new UVersion();
@@ -85,29 +82,6 @@ public class UVersion {
         string = ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', string)).replaceAll("\\p{L}", "").replaceAll("\\s", "").replaceAll("\\p{P}", "").replaceAll("\\p{S}", "");
         return string == null || string.equals("") ? -1 : Integer.parseInt(string);
     }
-    public long getDelay(String input) {
-        input = input.toLowerCase();
-        long l = 0;
-        if(input.contains("d")) {
-            final String[] s = input.split("d");
-            l += getRemainingDouble(s[0])*1000*60*60*24;
-            input = s.length > 1 ? s[1] : input;
-        }
-        if(input.contains("h")) {
-            final String[] s = input.split("h");
-            l += getRemainingDouble(s[0])*1000*60*60;
-            input = s.length > 1 ? s[1] : input;
-        }
-        if(input.contains("m")) {
-            final String[] s = input.split("m");
-            l += getRemainingDouble(s[0])*1000*60;
-            input = s.length > 1 ? s[1] : input;
-        }
-        if(input.contains("s")) {
-            l += getRemainingDouble(input.split("s")[0])*1000;
-        }
-        return l;
-    }
     public void spawnFirework(Firework firework, Location loc) {
         if(firework != null) {
             final Firework fw = loc.getWorld().spawn(new Location(loc.getWorld(), loc.getX()+0.5, loc.getY(), loc.getZ()+0.5), Firework.class);
@@ -122,37 +96,6 @@ public class UVersion {
         fwm.addEffect(FireworkEffect.builder().trail(true).flicker(true).with(explosionType).withColor(trailColor).withFade(explodeColor).withFlicker().withTrail().build());
         fw.setFireworkMeta(fwm);
         return fw;
-    }
-    public Color getColor(String path) {
-        if(path == null) {
-            return null;
-        } else {
-            path = path.toLowerCase();
-            switch(path) {
-                case "aqua": return Color.AQUA;
-                case "black": return Color.BLACK;
-                case "blue": return Color.BLUE;
-                case "fuchsia": return Color.FUCHSIA;
-                case "gray": return Color.GRAY;
-                case "green": return Color.GREEN;
-                case "lime": return Color.LIME;
-                case "maroon": return Color.MAROON;
-                case "navy": return Color.NAVY;
-                case "olive": return Color.OLIVE;
-                case "orange": return Color.ORANGE;
-                case "purple": return Color.PURPLE;
-                case "red": return Color.RED;
-                case "silver": return Color.SILVER;
-                case "teal": return Color.TEAL;
-                case "white": return Color.WHITE;
-                case "yellow": return Color.YELLOW;
-                default: return null;
-            }
-        }
-
-    }
-    public void sendConsoleMessage(String msg) {
-        console.sendMessage(ChatColor.translateAlternateColorCodes('&', msg));
     }
     public Double getRemainingDouble(String string) {
         string = ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', string).replaceAll("\\p{L}", "").replaceAll("\\p{Z}", "").replaceAll("\\.", "d").replaceAll("\\p{P}", "").replaceAll("\\p{S}", "").replace("d", "."));
@@ -169,9 +112,6 @@ public class UVersion {
             }
         } else e = input.substring(0, 1).toUpperCase() + input.substring(1).toLowerCase();
         return e;
-    }
-    public String toString(Location loc) {
-        return loc.getWorld().getName() + ";" + loc.getX() + ";" + loc.getY() + ";" + loc.getZ() + ";" + loc.getYaw() + ";" + loc.getPitch();
     }
     public String getRemainingTime(long time) {
         int sec = (int) TimeUnit.MILLISECONDS.toSeconds(time), min = sec/60, hr = min/60, d = hr/24;
@@ -206,10 +146,6 @@ public class UVersion {
             }
         }
         return time*1000;
-    }
-    public Location toLocation(String string) {
-        final String[] a = string.split(";");
-        return new Location(Bukkit.getWorld(a[0]), Double.parseDouble(a[1]), Double.parseDouble(a[2]), Double.parseDouble(a[3]), Float.parseFloat(a[4]), Float.parseFloat(a[5]));
     }
     public Enchantment getEnchantment(String string) {
         if(string != null) {
@@ -261,12 +197,6 @@ public class UVersion {
         return Double.toString(d);
     }
 
-    public List<String> colorizeListString(List<String> input) {
-        final List<String> i = new ArrayList<>();
-        for(String s : input)
-            i.add(ChatColor.translateAlternateColorCodes('&', s));
-        return i;
-    }
     public int indexOf(Set<? extends Object> collection, Object value) {
         int i = 0;
         for(Object o : collection) {
@@ -368,23 +298,6 @@ public class UVersion {
         }
         return amount;
     }
-    public int getTotalExperience(Player player) {
-        final double levelxp = LevelToExp(player.getLevel()), nextlevelxp = LevelToExp(player.getLevel() + 1), difference = nextlevelxp - levelxp;
-        final double p = (levelxp + (difference * player.getExp()));
-        return (int) Math.round(p);
-    }
-    public void setTotalExperience(Player player, int total) {
-        player.setTotalExperience(0);
-        player.setExp(0f);
-        player.setLevel(0);
-        player.giveExp(total);
-    }
-    private double LevelToExp(int level) {
-        return level <= 16 ? (level * level) + (level * 6) : level <= 31 ? (2.5 * level * level) - (40.5 * level) + 360 : (4.5 * level * level) - (162.5 * level) + 2220;
-    }
-    public String toReadableDate(Date d, String format) {
-        return new SimpleDateFormat(format).format(d);
-    }
     public ItemStack getSpawner(String input) {
         String pi = input.toLowerCase(), type = null;
         if(pi.equals("mysterymobspawner")) {
@@ -412,18 +325,6 @@ public class UVersion {
         }
 
         return null;
-    }
-    public void sendStringListMessage(CommandSender sender, List<String> message, HashMap<String, String> replacements) {
-        if(message != null && message.size() > 0 && !message.get(0).equals("")) {
-            for(String s : message) {
-                if(replacements != null) {
-                    for(String r : replacements.keySet()) {
-                        s = s.replace(r, replacements.get(r));
-                    }
-                }
-                if(s != null) sender.sendMessage(ChatColor.translateAlternateColorCodes('&', s));
-            }
-        }
     }
     public LivingEntity getHitEntity(ProjectileHitEvent event) {
         final List<Entity> n = event.getEntity().getNearbyEntities(0.0, 0.0, 0.0);
@@ -479,26 +380,6 @@ public class UVersion {
             return entity.getPotionEffect(type);
         }
     }
-    public PotionEffectType getPotionEffectType(String input) {
-        if(input != null && input != "") {
-            input = input.toUpperCase();
-            if(input.contains("STRENGTH")) return PotionEffectType.INCREASE_DAMAGE;
-            else if(input.contains("MINING_FATIGUE")) return PotionEffectType.SLOW_DIGGING;
-            else if(input.contains("SLOWNESS")) return PotionEffectType.SLOW;
-            else if(input.contains("HASTE")) return PotionEffectType.FAST_DIGGING;
-            else if(input.contains("JUMP")) return PotionEffectType.JUMP;
-            else if(input.contains("INSTANT_H")) return PotionEffectType.HEAL;
-            else if(input.contains("INSTANT_D")) return PotionEffectType.HARM;
-            else {
-                for(PotionEffectType p : PotionEffectType.values()) {
-                    if(p != null && input.equals(p.getName())) {
-                        return p;
-                    }
-                }
-                return null;
-            }
-        } else return null;
-    }
     public List<Location> getChunkLocations(Chunk chunk) {
         final List<Location> l = new ArrayList<>();
         final int x = chunk.getX()*16, z = chunk.getZ()*16;
@@ -507,14 +388,6 @@ public class UVersion {
             for(int zz = z; zz < z+16; zz++)
                 l.add(new Location(world, xx, 0, zz));
         return l;
-    }
-    public ItemStack getItemInHand(LivingEntity entity) {
-        if(entity == null) return null;
-        else {
-            final EntityEquipment e = entity.getEquipment();
-            if(version.contains("1.8")) return e.getItemInHand();
-            else                        return e.getItemInMainHand();
-        }
     }
     public Entity getEntity(UUID uuid) {
         if(uuid != null) {

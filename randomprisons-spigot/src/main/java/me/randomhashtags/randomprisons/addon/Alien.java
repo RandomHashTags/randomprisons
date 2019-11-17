@@ -1,6 +1,6 @@
 package me.randomhashtags.randomprisons.addon;
 
-import me.randomhashtags.randomprisons.addon.util.Identifyable;
+import me.randomhashtags.randomprisons.addon.util.Identifiable;
 
-public interface Alien extends Identifyable {
+public interface Alien extends Identifiable {
 }

@@ -1,13 +1,14 @@
 # Made by RandomHashTags
 messages:
+  not interested in talking to weak players:
+    - "&c&l(!)&r &cThis Guard is not interested in talking to weak players."
 #
 items:
-  nametag:
+  name tag:
     item: "name_tag"
     name: "&b&lCell Guard Nametag"
     lore:
-    - " "
-    - "&eRight-click on a cell guard"
-    - "&ewith this item to rename it!"
-    - " "
+      - " "
+      - "&eRight-click on a cell guard"
+      - "&ewith this item to rename it!"
 #

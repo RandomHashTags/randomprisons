@@ -1,11 +1,11 @@
 package me.randomhashtags.randomprisons.addon;
 
-import me.randomhashtags.randomprisons.addon.util.Identifyable;
+import me.randomhashtags.randomprisons.addon.util.Identifiable;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.LinkedHashMap;
 
-public interface EnchantRarity extends Identifyable {
+public interface EnchantRarity extends Identifiable {
     LinkedHashMap<String, CustomEnchant> getEnchants();
     ItemStack getRevealedItem();
     ItemStack getRevealItem();

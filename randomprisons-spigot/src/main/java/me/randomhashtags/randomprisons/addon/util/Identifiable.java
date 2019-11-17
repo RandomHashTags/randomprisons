@@ -1,5 +1,5 @@
 package me.randomhashtags.randomprisons.addon.util;
 
-public interface Identifyable {
+public interface Identifiable {
     String getIdentifier();
 }
